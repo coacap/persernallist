@@ -1,0 +1,2 @@
+# persernallist
+rule adsblock

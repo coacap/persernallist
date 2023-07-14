@@ -1,0 +1,590 @@
+kogorofc1412.blogspot.com##P
+!kogorofc1412.blogspot.com##I[id="g207"]
+!kogorofc1412.blogspot.com##DE[class="de"]
+allplayer.tk##DIV[id="fblikepop"]
+allplayer.tk##DIV[id="fblikebg"]
+facebook.com##DIV[id="u_0_c"][class="_5hn6"]
+facebook.com##DIV[id="pagelet_growth_expanding_cta"][class="_5h60"]
+facebook.com##DIV[id="u_0_3"][class="_5hn6"]
+facebook.com##DIV[id="u_0_3m"][class="_5hn6"]
+https://*-edge-chat.facebook.com
+!||superfastcdn.com/script/compatibility.js
+!||velocecdn.com/script/chrome.js
+!||trac.serving.ruu-dee.com/tracking/events
+!||authedmine.com^$third-party
+!35.*$popup,domain=mawtoload.com
+!stun
+edge-chat.facebook.com
+
+! 22/3/2561 22:06:42 subthai.co
+!||www.serieshot.co^$popup,domain=www.subthai.co
+! 6/2/2562 https://www.serieshot.co
+www.serieshot.co##[href="https://goo.gl/YLxACV"]
+www.serieshot.co###bgpopup
+www.serieshot.co###Seriespopup
+! 31/12/2562 https://www.serieshot.co
+!www.serieshot.co###ifrap
+
+! 24/5/2561 17:36:42 https://www.freemoviethai.com/
+! 24/5/2561 19:18:18 https://www.88hdmovie.com/
+! 24/5/2561 19:19:22 https://www.thmoviehd.com/
+! 24/5/2561 19:20:43 https://www.freemovieth.com/
+! 8/11/62 https://www.newmoviesth.com/
+newmoviesth.com,freemoviesth.com,thmovieshd.com,thmovieshdd.com,biggmoviesnow.com,biggmoviesnows.com,thmoviehdd.com,newmovie-thai.com,xn--72czpba5eubsa1bzfzgoe.live,xn--72c9aba3d6aqa7a3pmd.online,freemovies-th.com,newmovie-thai.com,freemovie-thai.com##+js(nano-setInterval-booster.js, , ,0.01)
+!##.bn_pc
+!##DIV[class="ytp-pause-overlay ytp-scroll-min"]
+
+! 4/6/2561 04:24:14 secufiles.com พัง660501
+!@@||secufiles.com/themes/flow/frontend_assets/js/advertisement.js$script,first-party
+
+! 22/6/2561 03:28:38 https://www.instagram.com/p/BkSPG8LB_62/?taken-by=ziintwigz
+www.instagram.com##._9AhH0
+! 23/9/2561 03:28:08 https://www.instagram.com/p/Bn7gaRzFcMj/?utm_source=ig_share_sheet&igshid=9ky2x5sfm98p
+www.instagram.com##.oujXn
+! 6/12/2561 02:05:11 https://www.instagram.com/?hl=th
+www.instagram.com##.B20bj
+! 6/12/2561 02:05:28 https://www.instagram.com/stories/pupe.bnk48official/?hl=th
+www.instagram.com##.z6Odz
+! 2023-01-05 https://www.instagram.com right click save as picture
+www.instagram.com##._aato._aagu > ._aagw
+
+! 27/10/2561 22:05:13 http://www.leoplayer1.com/watch?v=901565
+www.leoplayer1.com###player_banner
+
+facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has([id*="feed_sub"] > span[class][role=presentation] ~ * ~ span[class]:matches-css(display: none))
+!!ซ่อนโฆษนา timeline
+!facebook.com##.pagelet-group:has(a[href^="/gaming"])                             ไว้ซ่อนเกมแถบขวามือโดยใช้ฟังชันลิงค์ร่วมกับ class
+!facebook.com##.pagelet:has(a[href^="/ad_campaign"]) ซ่อนโฆษนาขวามือ
+
+! 10/1/2562 01:39:15 https://www.soccersuck.com/boards/topic/
+soccersuck.com##.adv_A
+! 8/11/2562 https://www.soccersuck.com
+||www.soccersuck.com/img/web/cate/18.png$image
+soccersuck.com#@#a[rel*="nofollow"] > img[src*="gif"]
+soccersuck.com#@#a[rel*="nofollow"] > img[src*="webp"]
+
+! 2022-11-04 https://www.reddit.com/r/uBlockOrigin/comments/ykm4xa/how_can_i_block_these_ads_on_outlookcom/ For the Ad in Inbox, can you check  !For the bottom part, maybe this? !Maybe restrict it a bit if you think it might cause false positives
+outlook.live.com##div.full:has(div:not([class]) .fbAdLink)
+outlook.live.com##.ms-FocusZone.customScrollBar ~ div
+outlook.live.com##.ms-FocusZone.customScrollBar ~ div:has(button span:has-text(/OneDrive|365/))
+! 2022-11-09 https://onedrive.live.com สำหรับคุณ tabด้านบน
+onedrive.live.com##div.od-ItemContent-header.od-ItemsScopeItemContent-header:nth-of-type(3)
+! 2023-03-08 https://onedrive.live.com สำหรับคุณ tabด้านบน ความทรงจำ
+onedrive.live.com##[class*="msTilesCarousel"]
+
+! 18/1/2562 01:29:31 https://www.037hd.com/
+!||googles.video/$media,redirect=noop-0.1s.mp3
+||vdoad3.online/$media,redirect=noop-0.1s.mp3
+||vdoad*.online/$media,redirect=noop-0.1s.mp3
+||moviefree365.com/$media,redirect=noop-0.1s.mp3
+! 2021-11-07 https://xn--24-3qi3cza1b2a4dxc2byb.com
+||van1.mvx-master4.work^$media,redirect=noop-0.1s.mp3
+
+!facebook.com##div[id^="substream_1"] div[id^="hyperfeed_story_id_"]
+!facebook.com##div[id^="substream_"] div[data-ft*="\"ei\":\""]
+!facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(div[id*="feed_subtitle_"] > .p_)
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(ได้รได้รไับกาับกาไรสนัรสนัไบสนุนบสนุนไไไ))
+
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(รได้รไับกาับกาไรสนัรสนัไบสนุนบสนุนไไไ))
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(ได้รับสปอนเซอร์))
+facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a:-abp-contains(ได้รับการสนับสนุน))
+
+!เก็บไว้ ใช้กับเพจไม่ล็อกอิน
+facebook.com###u_0_g._5hn6
+! 27/2/2562 https://web.facebook.com บล็อคโปรไฟล์
+!web.facebook.com###navItem_100002923774467 > ._5afe
+!web.facebook.com##._606w._2s25
+!web.facebook.com##._1hx._ikh.clearfix
+!web.facebook.com## .lfloat._ohe > ._3mg0._3mf5
+
+! 27/2/2562 https://web.facebook.com บล็อคโปรไฟล์
+!web.facebook.com## .lfloat._ohe > .UFIImageBlockImage._8r._8o.img.UFIReplyActorPhotoWrapper
+!web.facebook.com## .lfloat._ohe > ._3mg1._3mf5
+
+facebook.com##._5hn6
+
+! 1/3/2562 https://www.facebook.com จุดดำๆๆข้างๆปุ่มคอมเม้น
+www.facebook.com##._3dli._3dlh
+
+! 6/3/2562 https://www.new-mastermovie.com ดูไม่ได้ 660501
+!###ads_fox_bottom
+!www.new-mastermovie.com##.code-block-3.code-block > div
+!||www.new-mastermovie.com/wp-content/uploads/*.gif$image
+
+! 16/3/2562 https://www.facebook.com
+www.facebook.com##div._2s24._4kny:nth-of-type(3)
+
+!https://postto.me/1y/8b4.png
+! 2021-03-27 https://www.youtube.com
+www.youtube.com##.ytp-ce-element
+
+! 18/3/2562 https://www.facebook.com บล็อคกดคอมเม้น
+facebook.com###dialog_0
+
+! 26/3/2562 trueid.net  แก้จอดำ
+@@||src.litix.io/videojs/2/videojs-mux.js$script,domain=tv.trueid.net
+
+! 31/3/2562 https://www.movie2free.com
+www.movie2free.com##.notice > h2
+www.movie2free.com##body > div:nth-of-type(5)
+
+! 8/8/2562 https://allplayer.tk
+allplayer.tk###allplayer > div
+
+! 28/6/2562 https://www.twitch.tv
+! 31/12/2564 https://www.twitch.tv freeloot
+www.twitch.tv##.extensions-video-overlay-size-container > div
+! 21/5/2563 https://www.twitch.tv บล็อคโมดูลเออเร่อ
+!www.twitch.tv##div.tw-justify-content-center.tw-full-width.tw-full-height.tw-flex.tw-c-text-alt-2.tw-align-items-center.core-error
+! 2020-12-2x https://www.twitch.tv https://github.com/pixeltris/TwitchAdSolutions
+twitch.tv##+js(twitch-videoad)
+! 2021-08-19 https://www.twitch.tv ขวาคลิปสไลด์
+www.twitch.tv##[class^="ScTransitionBase-sc-eg1bd7-0"]  > .extensions-dock__dock
+! 2021-12-26 https://www.twitch.tv แถบล่าง ลงทะเบียนเพื่อรับประสบการณ์ที่ดีสุดจาก แชท ติดตาม หรือสมัครสมาชิก – Twitch มีทุกสิ่งที่คุณปรารถนา
+www.twitch.tv###twilight-sticky-footer-root
+! 2021-12-26 https://player.twitch.tv ส่วนด้านบนพวกชื่อเวลาเล่นmulti
+player.twitch.tv##.top-bar.lkvMjl.Layout-sc-nxg1ff-0
+www.twitch.tv##.theatre-social-panel.Layout-sc-nxg1ff-0
+! 2022-11-23 https://www.twitch.tv Prime Subscription and Loot Reminder
+www.twitch.tv##.extensions-dock__layout.tw-root--hover.tw-root--theme-dark.hnAHCd.Layout-sc-1xcs6mc-0
+! 2023-04-12 https://www.twitch.tv chat popup login
+!www.twitch.tv##.chat-signup-gate-overlay.bANGbT.Layout-sc-1xcs6mc-0
+! 2023-06-14 https://www.twitch.tv https://www.reddit.com/r/uBlockOrigin/comments/147lfd5/how_can_i_block_the_bottom_shadow_bar_on_twitch/
+www.twitch.tv##.player-controls:style(background: none !important)
+www.twitch.tv##.top-bar.nGhws.Layout-sc-1xcs6mc-0 :style(background: none !important)
+! 2023-06-23 https://www.twitch.tv สำหรับ.....
+www.twitch.tv##.disclosure-tool
+
+
+! 5/8/2562 https://www.dedbit.com
+www.dedbit.com##.banner
+www.dedbit.com##.logo
+
+! 4/9/2562 https://www.facebook.com
+www.facebook.com##._6jjm._6j1g._6ajm
+
+https://www.facebook.com/video/tahoe/video_data/?video_ids[0]
+https://www.facebook.com/video/tahoe/video_data/?video_ids[0]eo_data/?video_ids[0]=379719536075405&video_ids[1]=343305356534604&video_ids[2]=240745236763672&video_ids[3]=379083656115755&video_ids[4]=350497545845927&video_ids[5]=2450673485163686&video_ids[6]=650832642065257&video_ids[7]=481330422414015&video_ids[8]=542737412933972&current_video_id=2803312793016869
+
+! 17/10/2562 https://www.facebook.com พวกรูปมีภาพอื่น
+www.facebook.com###permalink\ photo\ chaining
+
+! 4/11/2562 https://www.facebook.com บล็อคป๊อบอัพติดตาม
+www.facebook.com##._6cj0 > div
+
+! 8/11/2562 https://www.facebook.com
+www.facebook.com##._3w53 > ._3bem
+
+! 8/11/2562 blognone head
+www.blognone.com#@#.advertorial
+
+! 10/12/2562 https://www.doolunla.com/ บล็อค style googledrive
+www.playerlunla.com##[style^="width:50px;height:50px"]
+www.playerlunla.com##+js(nano-setInterval-booster.js)
+
+! 20/12/2562 youtube ลายน้ำของช่อง
+!##.branding-img-container
+!www.youtube.com##paper-dialog.ytd-popup-container.style-scope > .ytd-popup-container.style-scope:has-text(Google Chrome)
+www.youtube.com###content.yt-tooltip-renderer.style-scope
+www.youtube.com##.yt-tooltip-renderer.style-scope.buttons
+! 14/7/2563 https://www.youtube.com มุมขวาล่างคลิป
+www.youtube.com##.ytp-iv-player-content.ytp-player-content
+! 2021-01-29 https://www.youtube.com มองหาการเล่นอัตโนมัติ
+www.youtube.com##.ytp-promotooltip-container
+! 18/9/2563 https://www.youtube.com
+www.youtube.com##.ytp-paid-content-overlay
+! 2021-03-17 https://www.youtube.com ###main.ytd-mealbar-promo-renderer.style-scope >ytd-mealbar-promo-renderer-message-title style-scope ytd-mealbar-promo-renderer ซ้ายล่างหน้าแรก
+www.youtube.com###main.ytd-mealbar-promo-renderer.style-scope:has(.ytd-mealbar-promo-renderer)
+! 2021-03-22 https://www.youtube.com
+www.youtube.com###icon > .yt-img-shadow.style-scope
+! 2022-03-25 https://www.youtube.com วิดีโอเพิ่มเติม 3p พักคลิป
+www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
+! 2022-04-08 https://www.youtube.com endscreen breaks autoplay notwork https://www.reddit.com/r/uBlockOrigin/comments/tcswua/tip_noncosmetic_filters_to_remove_junk_from/
+youtube.com##+js(json-prune,endscreen)
+/endscreen.js$script,important,domain=youtube.com
+!https://www.reddit.com/r/uBlockOrigin/comments/145hz4p/filters_for_youtube_to_fix_the_3_videos_per_row/
+
+! 2/1/2563 https://www.facebook.com กลุ่มปาตี้ดูพร้อมกันบล็อค
+www.facebook.com###comment_js_4s
+! 10/1/2563 https://www.facebook.com บล็อคโหวต
+www.facebook.com##._3qng._2fyh._61-3._3qn7._7ylo._7y75
+!บล้อคขวาเฟส
+facebook.com###pagelet_ego_pane > .pagelet:not(.egoOrganicColumn)
+
+! 7/1/2563 https://doomovie-hd.com
+doomovie-hd.com##.floating_ads_bt-mid_container
+doomovie-hd.com##.topad_container
+doomovie-hd.com##.side_floating_ad
+doomovie-hd.com##.position-relative.player-container > div
+doomovie-hd.com##div.m-auto.horizontal-ad-bar100-h360
+doomovie-hd.com##div.horizontal-ad-bar100-small
+
+! 21/2/2563 https://series-nanime.com 650101 to https://series-nanime.co/ 651121 https://series-nanimehd.com/
+*.gif$domain=series-nanimehd.com
+series-nanimehd.com##.col-lg-3 > .row > div.col-lg-12:nth-of-type(1)
+!series-nanime.co###player_inzad
+!||cdend.com^$redirect=noop-0.1s.mp3
+
+! 7/11/2562 https://www.037hdd.com
+!www.037hdd.com##.filmborder:not(:has(.filmcontent))
+! 20/5/2563 https://www.037hdmovie.com  movie-19.com kuyhd123.com hooq-movie.com
+037hdmovie.com##div[id^="ads_"]
+037hdmovie.com##.leftC > .filmborder:has(:scope > div[style="text-align: left;"]:only-child > .separator:only-child > a[href][target="_blank"])
+037hdmovie.com##.leftC > .filmborder:has(:scope > div[style="text-align: center;"]:only-child > a[href][target="_blank"])
+037hdmovie.com##.bireklam
+037hdmovie.com###sidebar > div[class="widget_text sidebarborder"]
+/wp-content/uploads/*.gif$domain=037hdmovie.com
+https://googles.video$domain=leoplayer1.com
+vdoad3.online/vdo/macau1.mp4$domain=leoplayer1.com
+/Banner/$domain=037hdmovie.com
+037hdmovie.com##.sidebarborder:has(div[style^="text-align: center;"])
+
+! 21/5/2563 https://dunnung.com https://dodonung.com
+dunnung.com###banner-left
+||googles.video^$media,domain=dunplayer.online|dunplayer.xyz
+dodonung.com,dunnung.com##a[href] > img[src*=gif]
+
+! 21/5/2563 https://pantip.com
+pantip.com##.pt-snackbar--open.pt-snackbar
+
+! 22/5/2563 mawtoload.com
+!||$script,domain=mawtoload.com,3p
+!||boomx5.com/js/full-page-script.js$script
+!||shrtfly.com/js/full-page-script.js$script
+!||win2url.com/js/full-page-script.js$script,domain=axeload.com
+! 2021-01-21 https://mawtoload.com
+mawtoload.com##+js(acis.js , adlinkfly_url)
+mawtoload.com##.code-block
+mawtoload.com###delayedText:style(visibility:visible !important)
+mawtoload.com###delayedText:style(display: block !important; visibility: visible !important;)
+mawtoload.com###sticky-banner
+mawtoload.com###banner-post
+! 2021-12-26 https://uploadmx.com fix hide page ads from mawtoload.com
+uploadmx.com##+js(acis , s65c)
+! 2021-12-26 https://axeload.com
+axeload.com##+js(acis , adlinkfly_url)
+axeload.com##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly_url)
+axeload.com##+js(addEventListener-defuser)
+axeload.com##.code-block
+
+! 2022-02-03 https://colabtutorials.com https://axeload.com/
+!colabtutorials.com##.red.medium.shortc-button:style(display: inline !important; visibility: visible !important;)
+!colabtutorials.com##strong:style(display: inline !important; visibility: visible !important;)
+axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)
+colabtutorials.com,mukohphetra.com#@#.code-block:has(img)
+colabtutorials.com,mukohphetra.com##+js(noeval)
+karanpc.com###downloadButton:style(display: inline !important; visibility: visible !important;)
+karanpc.com###countdown
+
+!https://www.doolunla.com/ พัง
+playerlunla.com##+js(abort-current-inline-script, $, check_av)
+
+!----- filters/general/banner_hide.txt -----
+##a[href*="77up.bet"] > img[src*="gif"]
+##a[href*="awz.bz/ads/"] > img[src*="gif"]
+##a[href*="bit.ly/Pro55slot"] > img[src*="gif"]
+##a[href*="bx.in.th/ref/"] > img[src*="gif"]
+##a[href*="dreamgame88.com"] > img[src*="gif"]
+##a[href*="mobilesitexxx.com"] > img[src*="gif"]
+##a[href*="sagame66.com"] > img[src*="gif"]
+##a[href*="sexygame66.com"] > img[src*="gif"]
+##a[href*="sl0tr00m.club"] > img[src*="gif"]
+##a[href*="slot1234.net"] > img[src*="gif"]
+##a[href*="superslot999.com"] > img[src*="gif"]
+##a[href*="ufa191.com"] > img[src*="gif"]
+##a[href*="ufa678.com"] > img[src*="gif"]
+##a[href*=macau-uta-popup]
+##div[id^=div-gpt-ad-]
+##a[href*="ssgame56.com"] > img[src*="gif"]
+##a[href*="gclubonline.com"] > img[src*="gif"]
+##a[href*="lenraidee.com"] > img[src*="gif"]
+##a[href*="168"] > img[src*="gif"]
+##a[href*="slot"] > img[src*="gif"]
+##a[href*="game"] > img[src*="gif"]
+##a[href*="club"] > img[src*="gif"]
+##a[href*="bet"] > img[src*="gif"]
+##a[href*="win"] > img[src*="gif"]
+##a[href*="bai"] > img[src*="gif"]
+##a[href*="ufa"] > img[src*="gif"]
+##a[href*="bit.ly"] > img[src*="gif"]
+##a[href*="hydra"] > img[src*="gif"]
+##a[rel*="nofollow"] > img[src*="gif"]
+##a[rel*="nofollow"] > img[src*="webp"]
+##.code-block:has(img)
+!*##a[rel*="nofollow"]:has(img[src*="gif"])
+!##a[target*="_"] > img[src*="anner"]
+!##a[target*="_"] > img[src*="wp-content\.gif\//"]
+
+! 27/5/2563 https://www.i-moviehd.com
+i-moviehd.com##a[rel*=nofollow] > img
+i-moviehd.com###banner-left
+
+! 31/5/2563 https://writer.dek-d.com
+!writer.dek-d.com##.post-wrapper
+!writer.dek-d.com##.comment-container
+!writer.dek-d.com##.-social-animate.-sticky.-desktop.comment-post-wrapper
+writer.dek-d.com###banner
+writer.dek-d.com##.comment-root
+! 2021-03-06 https://writer.dek-d.com
+!writer.dek-d.com##.toolbar
+!writer.dek-d.com##.slide-top.recommend-app-modal
+!writer.dek-d.com###cookiePolicyDialog
+! 2022-05-30 https://www.reddit.com/r/uBlockOrigin/comments/v3eyle/right_click_disable_on_this_site/
+writer.dek-d.com##+js(ra, oncontextmenu, body)
+writer.dek-d.com##+js(rc, prevent-user-select)
+
+! 8/6/2563 https://www.movie-th.com ดูไม่ได้
+movie-th.com#$##moviePlayer { display: none!important; }
+movie-th.com#$##videoWrapper { display: block!important; }
+
+!thaiadsblocklist
+||*.gif$image,domain=animeriku.com|fwiptv.tv|ดูหนังออนไลน์2022.com|movie-th.tv|169moviehd.com|doonung982.com|ดูหนัง24.com|love-series.net|9nunghd.com|doonung1234.com|animelizm.com|cinemas1.com|037movie4k.com|037moviefree.com|doonungonline.com|999flix.com|kaba-anime.com|gg-anime.com|govmovie.org|doofree365.com|ดูหนังฟรี24.com|fairyani.me|series2day.com|goseries4k.com|hdmovie2u.com|series-play.com|series-108.com|xavidol.com|movie2free.tv|doomovie-th.com|movie-free.org|moviehdfree.net|moviemax.tv|movie2film.com|movie2here.com|neko-miku.com|animeindy.com|www.movie678.com|all-movie.tv|inw-iptv.com|anime-kawaii.com|nungfree.tv|anime-suba.com|doomovie-hd.com|animelucky.com|cats-translator.com|อนิเมะสนุก.com|overserieshd.com|doomovie.online|678moviehd.com|pronung.com|ok-anime.com|anime-teri.com|kuro-anime.com|animeseesan.com|fairyanime.com|anime-d.com|do-anime.com|animelolo.com|overseries.com|merlin-anime.com|123-hd.com|animerem.com|anime-sugoi.com|037hdd.com|1080moviehd.com|akaanime.com|baan-series.com|doonungdee.online|doonungonline.com|dufree4k.com|imovie-hd.com|movie1free.com|movie2fin.com|movie2thai.com|movie2uhd.com|movie356hd.com|movie365-hd.com|movie8free.com|moviemocha.com|movierj.com|new-mastermovie.com|owlseries.com|series-nanime.com|series4you.com|seriesclubs.com|star-seriesth.com|superseriesthai.com|thmovieshd.com|tvseriesclub.com|ufa365movie.com|xn--72czp5e5a8b.online,3p
+
+! 8/6/2563 https://anime-hayai.com https://animehayai.net/
+animehayai.net##div.col-12:nth-of-type(2) > .bottom-2x.text-center > .row
+animehayai.net##.row .loaded.entered.loadads.img-ads
+
+!5play.ru##+js(nano-sib)
+5play.ru,lenov.ru##+js(nano-sib, , ,0.001)
+nexusmods.com,gamemod.io##+js(nano-stb, , ,0.001)
+
+!037
+!wss://tracker2.youlive-cdn.com/?x=28f6ef8c1908877896c124384b8e3d3f&t=1592463040219
+wss://tracker2.*/?x=*
+wss://*tracker*/
+wss://*/?x*
+
+! 18/6/2563 https://movie2uhd.com
+movie2uhd.com##.popup.adb
+lb.anime-xxx.com,lb.1liplay.xyz,lb.zboxo.xyz##.jw-reset.jw-logo-top-right.jw-logo
+@@||lb.zboxo.xyz/embed/*$subdocument,domain=hdd.movies-store.com
+
+! 14/6/2563 https://anime-master.com
+anime-masters.com##.col_delb
+! 2021-08-29 https://www.anime-master.com
+anime-masters.com##div.container > .row > .center_lnwphp
+anime-masters.com##div#slider-b.banner-close
+
+! 27/6/2563 https://do-anime.com
+do-anime.com##.text-center-ads
+do-anime.com##.panel-body > center:nth-of-type(1)
+do-anime.com##.logoAI
+
+! 2021-12-30 https://cat-translator.com to https://cats-translator.com
+||*.webp$image,domain=cats-translator.com
+!cats-translator.com##.c-container.container > .c-row.row > .widget_custom_html.heading-style-1.no-icon.default.col-md-12.col-12.widget.widget_text
+
+! 3/9/2563 https://animerem.com
+@@||$websocket,domain=play.hydracdn.network
+
+! 9/7/2563 https://www.animehdzero.com to https://www.animehdzeroo.com/
+animehdzeroo.com##center
+animehdzeroo.com##.container > div.row > .col-lg-3 >a
+animehdzeroo.com##.col-lg-12
+||images.shirokami.me/i/*.gif$image,domain=animehdzeroo.com
+animehdzeroo.com##a[href][rel*=dofollow] > img[src*="shirokami.me"]
+animehdzeroo.com##.close-ads
+
+! 8/7/2563 https://www.lunggildarts-anime.com
+||www.lunggildarts-anime.com/wp-content/uploads/*.gif$image
+||www.lunggildarts-anime.com/wp-content/uploads/2020/04/Game1688-side-Re2.jpg$image
+
+! 3/10/2563 https://www.mio-anime.com to https://www.mio-anime.net
+www.mio-anime.net##.img-responsive
+##[style^="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;"]
+
+! 5/7/2563 axilesoft.com
+@@||pagead2.googlesyndication.com^$script,domain=www.axilesoft.com
+
+! 9/7/2563 https://www.techtalkthai.com
+www.techtalkthai.com##.background-cover
+||www.techtalkthai.com/wp-content/uploads/*/*Banner*.*$image
+
+! 7/7/2563 https://www.facebook.com สด+จำนวนคนดูlive
+www.facebook.com##._6xrt._3rno._2lwf._4ubd._3qry
+! 1/8/2563 https://www.facebook.com login + livenum
+www.facebook.com##.__tw._ylb._yl7
+
+! 14/8/2563 https://blockadblock.com
+!@@||nonnoifree.com^$generichide
+nonnoifree.com,gg-th.com,blockadblock.com,okedrive.com,mini1up.com##+js(nobab)
+!!mawtoload.com,
+!icafepay.in.th##+js(aeld)
+
+! 2022-01-03 https://twitter.com ล็อคอิน
+twitter.com##.r-1upvrn0.r-l5o3uw.css-1dbjc4n
+
+!AdGuard Base
+!mega.nz##+js(nano-setInterval-booster, addClass('skip'), , 0.02)
+
+! 2021-11-13 https://www.we-play.tv to https://we-play.live die65
+!||we-play.live/images/*.gif$image
+!we-play.live##.jw-reset.jw-logo-top-right.jw-logo
+!we-play.live##.jw-reset.jw-logo-top-left.jw-logo
+!we-play.live##.watch.col-lg-4 > .col-12
+
+! 6/9/2563 https://wetv.vip
+wetv.vip##[data-role^="txp-ui-title-mod"]
+wetv.vip##[data-role^="txp-ui-screen-percent-wrap"]
+wetv.vip##[data-role^="txp-ui-clock-mod"]
+wetv.vip##[data-role^="wetv-player-fullscreen-mask"]
+!wetv.vip##[data-role^="txp_mod_barrage"]
+!wetv.vip##[class^="fy_qc_btn"]
+! 2022-01-25 https://wetv.vip
+@@||puui.qpic.cn/vupload/0/20190213_1550044111386_8kwy2pusxod.png/0$image
+wetv.vip##.txp-watermark
+@@||qq.com^$domain=wetv.vip
+wetv.vip##.cookie_uneu_banner
+
+! 2021-02-09 https://www.anime-suba.com
+www.anime-suba.com##div.LazyLoad.Anadvertisement
+anime-suba.com##+js(nano-sib)
+
+! 23/10/2563 https://www.siambit.me
+www.siambit.me##[src*="pic/*.jpg"]
+www.siambit.me##h1:nth-of-type(1) > font
+||www.siambit.me/pic/*.jpg$image
+
+! 23/10/2563 https://www.facebook.com บล็อคกำลังพิมพ์
+www.facebook.com##.jifvfom9.k7cz35w2.j83agx80.bp9cbjyn
+facebook.com#?#div[data-pagelet^="FeedUnit"]:-abp-has(a:-abp-contains(ได้รับการสนับสนุน))
+! 2020-11-20 https://www.facebook.com ชวนเพื่อนกรุ๊บ
+www.facebook.com##._7iv0
+! 2020-12-03 https://www.facebook.com nextclip
+!||www.facebook.com/ajax/bnzai$xhr,domain=www.facebook.com
+!||www.facebook.com/ajax/route-definition/*$xhr,domain=www.facebook.com
+! 2020-12-03 https://www.facebook.com แจ้งเตือนถ่ายทอดสด
+www.facebook.com##.a9ndjppc > .k4urcfbm.l9j0dhe7.j83agx80
+! 2021-01-15 https://www.facebook.com
+www.facebook.com##.du4w35lb.l9j0dhe7.rq0escxv > .datstx6m.hwddc3l5.k4urcfbm:-abp-has(a:-abp-contains(ได้รับการสนับสนุน))
+! 2021-03-03 https://www.facebook.com ads ขวา
+www.facebook.com##.kcmanqeg.g2wm7t24.n99bqvw7.rek2kq2y.aghb5jc5.h676nmdw.bi6gxh9e.oi9244e8.aov4n071.g5gj957u.buofh1pr.o387gat7.hpfvmrgz.qmfd67dx.du4w35lb.l9j0dhe7.rq0escxv
+!https://www.reddit.com/r/uBlockOrigin/comments/sfj7ga/ublock_stopped_blocking_facebook_login_stuff_a/
+facebook.com##+js(aeld, scroll, showPopupOnDistance)
+! 2022-05-21 https://www.facebook.com
+!facebook.com#?#[role^="feed"]>div:-abp-has(a:-abp-contains(ได้รับการสนับสนุน))
+! 2023-05-10 https://www.facebook.com เชื่อมต่อกับ....... login new acc https://www.reddit.com/r/uBlockOrigin/comments/133uncy/hiding_the_facebook_login_popup_and_overlay/
+facebook.com##div[data-nosnippet=""]
+! 2022-09-01 https://www.facebook.com บล็อคกำลังพิมพ์
+www.facebook.com##.xdj266r.x1n13y8y
+! 2022-10-04 https://www.facebook.com ดูเพิ่มเติมเกี่ยวกับ *** บน Facebook ตอนเปิดรูป ingoni
+www.facebook.com##.x443n21.x1ja2u2z.x1n2onr6.xg6iff7.xdt5ytf.x78zum5 > div > .x1u8a7rm.xh8yej3.x17qophe.xixxii4.x1ye3gou.x1s14bel.xn6708d.x1xy6bms.x9f619.xayqjjm.x1ey2m1c.x2bj2ny
+! 2022-10-12 https://www.facebook.com สดจำนวนคนดู
+www.facebook.com##.x1tk7jg1.xoie2o3.x10l6tqk.xxk0z11.x78zum5
+
+! 2020-12-26 https://www.678moviehd.com ! 2021-01-21 https://www.fw2uhd.com cherry1688.com ! 2021-01-21 https://www.v8movie.com https://www.nung222hd.com/ https://movie8m.co/ https://www.dooseries4k.com https://www.9nunghd.com/ https://www.xn--72czpba5eubsa1bzfzgoe.com/ https://fm2play.com/
+!p2p.cherry1678.com##[id^="Stat_P2P"]
+v8moviehd.com,dooseries4k.com##.ad-float
+!p2p.cherry1678.com##.p2p-stat
+www.dooseries4k.com##.h-100.w-100 > tbody > tr
+@@||googles.video/$media,redirect=noopmp3-0.1s,domain=steamseries88.com
+@@||cdend.com^$media,redirect=noopmp3-0.1s,domain=steamseries88.com
+||cdend.com,googles.video$media,important,domain=sgcdnseries.com|steamseries88.com
+||$media,domain=steamseries88.com,3p
+||upfastfile.com$media,domain=sgcdnseries.com|steamseries88.com
+
+! 2021-01-18 https://thaiware2.speedtestcustom.com แก้สปีดเทสช้า
+!||speedtest-sp1.3bb.co.th.prod.hosts.ooklaserver.net:8080^$xhr,domain=thaiware2.speedtestcustom.com
+!||speedtest-sp1.3bb.co.th.prod.hosts.ooklaserver.net:5060^$websocket,domain=thaiware2.speedtestcustom.com
+!||speedtest-sp1.3bb.co.th.prod.hosts.ooklaserver.net:5060^$xhr,domain=thaiware2.speedtestcustom.com
+thaiware.com###pdpa_notice
+
+! 2020-12-29 https://geoip.redirect-ads.com
+!@@||^$websocket,domain=geoip.redirect-ads.com
+! 2021-02-16 https://geoip.redirect-ads.com
+!@@||geoip.redirect-ads.com^$script,domain=geoip.redirect-ads.com
+
+! 2021-02-27 https://trueonline.truecorp.co.th/speedshuffle
+@@||trueonline.truecorp.co.th/js/ga-event-tracking.js$script,domain=trueonline.truecorp.co.th
+
+!https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/notify-reload/notify-reload-ublock-origin.js
+!https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/dyn/dyn-ublock-origin.js
+!https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/notify-strip/notify-strip-ublock-origin.js
+!userResourcesLocation https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/master/vaft/vaft-ublock-origin.js
+
+! 2021-07-26 https://mangauptocats.net
+manga-uptocats.com###upcat_ads3
+manga-uptocats.com##.floating_content_1
+manga-uptocats.com##+js(acis)
+
+! 2021-09-05 https://animekimi.com
+mewplayer.com##+js(aopr, jwplayer.utils.Timer)
+mewplayer.com##+js(aopr, __Y)
+mewplayer.com##+js(aopw, adcashMacros)
+mewplayer.com##+js(aopr, AaDetector)
+mewplayer.com##+js(aopr, glxopen)
+mewplayer.com##+js(set, globalThis, null)
+mewplayer.com##+js(window.open-defuser)
+!||animekimi.com/player/*$subdocument
+playermeow.com,animekimi.com##+js(nowoif, /^/, 2)
+!https://github.com/AdguardTeam/AdguardFilters/issues/74246
+playermeow.com,animekimi.com##+js(window.open-defuser, !abyss.to, 1)
+playermeow.com,animekimi.com##+js(abort-on-stack-trace, String.prototype.charAt, $0)
+
+! 2023-01-26 https://fairyanime.net
+fairyanime.net##.bounce.animated.kosana.concise
+
+! 2023-05-11 https://anime-hit.com
+anime-hit.com##a.img-responsive
+anime-hit.com###adsR.m-0.row
+
+! 2021-03-03 https://ok.ru logo ซ้ายบน
+ok.ru##.html5-vpl_logo
+ok.ru##.modal-layer__w9hfw
+! 2021-12-27 https://ok.ru block true cdn
+185.226.52.61 ok52-1.vkuser.net
+185.226.52.61 ok52-2.vkuser.net
+
+! 2021-12-26 https://www.youtube.com theater fullsite page https://www.reddit.com/r/uBlockOrigin/comments/rkhjub/youtube_theater_mode_full_height_ublock_filter/
+!youtube.com##body ytd-watch-flexy[theater-requested_]:not([fullscreen]) #player-theater-container:style(height:calc(100vh - 56px) !important; max-height:calc(100vh - 56px) !important;min-height:calc(100vh - 56px) !important; )
+
+! 2022-02-14 https://goseries4k.com https://series2day.com
+goseries4k.com,streaming-p2p.xyz,player-hd.com##.jw-reset.jw-hide.jw-logo-top-left.jw-logo
+
+! 2022-02-25 https://www.xn--l3c0azab5a2gta.com
+www.xn--l3c0azab5a2gta.com##.ads
+
+! 2022-03-01 https://037movie4k.com https://www.4444movie.com/
+4444movie.com/ads/$media,redirect=noop-0.1s.mp3
+037movie4k.com/ads/$media,redirect=noop-0.1s.mp3
+
+! 2022-03-21 https://www.axilesoft.com
+axilesoft.com###dvHideAppAd:style(display: inline !important;)
+
+!facebook.com##[class*="rq0escxv l9j0dhe7 du4w35lb"]:style(height: 40px !important;)
+!facebook.com#$#[class*="rq0escxv l9j0dhe7 du4w35lb"] {height: 40px !important;}
+!facebook.com#$#[class*="rq0escxv l9j0dhe7 du4w35lb"] { remove: true; }
+
+! 2022-03-27 125.26.170.3 webblock
+||125.26.170.3$doc
+
+! 2022-07-16 https://fwiptv.tv
+fwiptv.tv##[href^="https://www.fwiptv.tv/ads/"] > img[src*="banner"]
+fwiptv.tv/images/banners/*$media,redirect=noop-0.1s.mp3
+
+! 2022-10-20 https://overserieshd.com
+overserieshd.com##div.mb-3.col-lg-12 > .row > .col-lg-12 > .text-center
+overserieshd.com##.movie-container.container > div.row > .col-12
+
+! 2023-06-04 https://www.seriesday.com
+www.seriesday.com##.ad
+www.seriesday.com##.adl
+www.seriesday.com##.adhl
+www.seriesday.com##.adb
+
+! 2023-06-14 https://www.reddit.com
+www.reddit.com##shreddit-async-loader.theme-beta
+www.reddit.com##.sidebar-grid:style(filter: none !important)
+www.reddit.com##.prompt
+
+! 2023-06-23 https://movie2uhd.com
+movie2uhd.com##.lazyloaded.size-full
+
+! 2023-06-28 https://www.xn--18-3qi5din4cwdvcvkxa5e.com
+xn--18-3qi5din4cwdvcvkxa5e.com##+js(set-constant, adSettings, [])
+xn--18-3qi5din4cwdvcvkxa5e.com##div.above-player-banana
+xn--18-3qi5din4cwdvcvkxa5e.com##.floating_ads_mid_container
+
+! 2023-07-04 https://animeriku.com
+animeriku.com##.banner-wrapper
+

@@ -1,0 +1,46 @@
+manga-uptocats.com##div.text-center > .col-12
+manga-uptocats.com##.floating_content
+manga-uptocats.com##.floating_content_1
+manga-uptocats.com###upcat_ads3
+! 2021-07-26 https://mangauptocats.net
+manga-uptocats.com##.wp-manga.c-top-sidebar.c-sidebar
+manga-uptocats.com##[class^="floating_content"]
+manga-uptocats.com##.c-footer-sidebar
+manga-uptocats.com##.loaded.lazy
+||www.soccersuck.com/img/web/cate/18.png$image
+www.soccersuck.com##.adv_A
+! 2021-03-26 https://animekimi.com
+animekimi.com###animekimiads1
+animekimi.com###animekimiads2
+animekimi.com###animekimiads3
+animekimi.com###animekimiads4
+animekimi.com###animekimiads5
+! 2020-12-26 https://www.678moviehd.com ! 2021-01-21 https://www.fw2uhd.com cherry1688.com ! 2021-01-21 https://www.v8movie.com https://www.nung222hd.com/ https://movie8m.co/ https://www.dooseries4k.com https://www.9nunghd.com/
+p2p.cherry1678.com##[id^="Stat_P2P"]
+www.v8moviehd.com,dooseries4k.com##.ad-float
+p2p.cherry1678.com##.p2p-stat
+www.dooseries4k.com##.h-100.w-100 > tbody > tr
+||cdend.com$domain=steamseries88.com
+||googles.video$domain=steamseries88.com
+||upfastfile.com$domain=steamseries88.com
+123-hd.com###banner_top
+123-hd.com###banner_right
+123-hd.com##img[width="728"][height="90"]
+123-hd.com###banner_plow
+! 2022-08-31 https://www.anime-masters.com
+anime-masters.com##div.container > .row > .center_lnwphp
+anime-masters.com##div#slider-b.banner-close
+anime-masters.com##.col-md-12 > center >p
+anime-masters.com##center > p
+anime-masters.com##.col_delb
+! 2022-08-31 https://www.xn--l3c0azab5a2gta.com
+xn--l3c0azab5a2gta.com##.ads
+! 2022-02-14 https://goseries4k.com https://series2day.com
+goseries4k.com,streaming-p2p.xyz,player-hd.com##.jw-reset.jw-hide.jw-logo-top-left.jw-logo
+goseries4k.com##.entry-content
+goseries4k.com##.ads-bottom
+! 2023-06-04 https://www.seriesday.com
+www.seriesday.com##.ad
+www.seriesday.com##.adl
+www.seriesday.com##.adhl
+www.seriesday.com##.adb

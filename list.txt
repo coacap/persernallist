@@ -38,11 +38,6 @@ instagram.com#?#div[class^=" _"][style^="width: "]:only-of-type:has(a[href^="/ac
 ! 27/10/2561 22:05:13 http://www.leoplayer1.com/watch?v=901565
 www.leoplayer1.com###player_banner
 
-!facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has([id*="feed_sub"] > span[class][role=presentation] ~ * ~ span[class]:matches-css(display: none))
-!!ซ่อนโฆษนา timeline
-!facebook.com##.pagelet-group:has(a[href^="/gaming"])                             ไว้ซ่อนเกมแถบขวามือโดยใช้ฟังชันลิงค์ร่วมกับ class
-!facebook.com##.pagelet:has(a[href^="/ad_campaign"]) ซ่อนโฆษนาขวามือ
-
 ! 10/1/2562 01:39:15 https://www.soccersuck.com/boards/topic/
 soccersuck.com##.adv_A
 ! 8/11/2562 https://www.soccersuck.com
@@ -84,8 +79,6 @@ www.movie2free.com##body > div:nth-of-type(5)
 ! 28/6/2562 https://www.twitch.tv
 ! 31/12/2564 https://www.twitch.tv freeloot
 www.twitch.tv##.extensions-video-overlay-size-container > div
-! 21/5/2563 https://www.twitch.tv บล็อคโมดูลเออเร่อ
-!www.twitch.tv##div.tw-justify-content-center.tw-full-width.tw-full-height.tw-flex.tw-c-text-alt-2.tw-align-items-center.core-error
 ! 2020-12-2x https://www.twitch.tv https://github.com/pixeltris/TwitchAdSolutions
 twitch.tv##+js(twitch-videoad)
 ! 2021-08-19 https://www.twitch.tv ขวาคลิปสไลด์
@@ -145,12 +138,11 @@ www.youtube.com##.ytp-pause-overlay
 www.youtube.com###c4-player > .html5-video-container > .html5-main-video.video-stream:remove()
 ! 2023-11-03 https://www.youtube.com corners https://www.reddit.com/r/uBlockOrigin/comments/16zuhsz/disable_rounded_corners_on_youtube/
 youtube.com##[id*="player"]:style(border-radius: 0px !important)
+!https://www.reddit.com/r/uBlockOrigin/comments/17lrwaz/youtube_fix_customizations_4_videos_per_row/
 
 ! 21/2/2563 https://series-nanime.com 650101 to https://series-nanime.co/ 651121 https://series-nanimehd.com/
 *.gif$domain=series-nanimehd.com
 series-nanimehd.com##.col-lg-3 > .row > div.col-lg-12:nth-of-type(1)
-!series-nanime.co###player_inzad
-!||cdend.com^$redirect=noop-0.1s.mp3
 
 ! 7/11/2562 https://www.037hdd.com
 !www.037hdd.com##.filmborder:not(:has(.filmcontent))
@@ -175,10 +167,6 @@ dodonung.com,dunnung.com##a[href] > img[src*=gif]
 pantip.com##.pt-snackbar--open.pt-snackbar
 
 ! 22/5/2563 https://mawtoload.com/
-!||$script,domain=mawtoload.com,3p
-!||boomx5.com/js/full-page-script.js$script
-!||shrtfly.com/js/full-page-script.js$script
-!||win2url.com/js/full-page-script.js$script,domain=axeload.com
 ! 2021-01-21 https://mawtoload.com
 mawtoload.com##+js(acis.js , adlinkfly_url)
 mawtoload.com##.code-block
@@ -193,20 +181,12 @@ axeload.com##+js(acis , adlinkfly_url)
 axeload.com##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly_url)
 axeload.com##+js(addEventListener-defuser)
 axeload.com##.code-block
-!colabtutorials.com,mukohphetra.com##+js(set, detectAdBlock, noopFunc)
-!colabtutorials.com,mukohphetra.com##+js(aopr, adBlockDetected)
-!colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, count = 10, count = 0)
-!colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, count = 5, count = 0)
-!colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, adBlockEnabled = true, adBlockEnabled = false)
-!colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, count - 1, count - 10000)
-!colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, "}, 2000", "}, 0")
-!colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, ", 1000", ", 0")
-!colabtutorials.com,mukohphetra.com##+js(rpnt, script, (count <= 0), (true))
 colabtutorials.com,mukohphetra.com##+js(rpnt, script, (adBlockEnabled), (false))
 colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, /10|5|2000/, 0)
 axeload.com,mawtoload.com##+js(trusted-click-element, button.btn)
 axetutorials.com##+js(trusted-click-element, a[href][rel="nofollow"])
-colabtutorials.com,mukohphetra.com##+js(trusted-click-element, a[onclick])
+!colabtutorials.com,mukohphetra.com##+js(trusted-click-element, a[onclick])
+colabtutorials.com,mukohphetra.com##+js(trusted-click-element, img[src*="Download"][alt="image3"])
 mawtoload.com##+js(trusted-click-element, a.btn)
 
 ! 2022-02-03 https://colabtutorials.com https://axeload.com/
@@ -258,10 +238,6 @@ playerlunla.com##+js(abort-current-inline-script, $, check_av)
 !##a[target*="_"] > img[src*="anner"]
 !##a[target*="_"] > img[src*="wp-content\.gif\//"]
 
-! 27/5/2563 https://www.i-moviehd.com
-i-moviehd.com##a[rel*=nofollow] > img
-i-moviehd.com###banner-left
-
 ! 31/5/2563 https://writer.dek-d.com
 writer.dek-d.com###banner
 writer.dek-d.com##.comment-root
@@ -307,10 +283,6 @@ do-anime.com##.text-center-ads
 do-anime.com##.panel-body > center:nth-of-type(1)
 do-anime.com##.logoAI
 
-! 2021-12-30 https://cat-translator.com to https://cats-translator.com
-||*.webp$image,domain=cats-translator.com
-!cats-translator.com##.c-container.container > .c-row.row > .widget_custom_html.heading-style-1.no-icon.default.col-md-12.col-12.widget.widget_text
-
 ! 3/9/2563 https://animerem.com
 @@||$websocket,domain=play.hydracdn.network
 
@@ -318,7 +290,6 @@ do-anime.com##.logoAI
 !animehdzeroo.com##center
 animehdzeroo.com##.container > div.row > .col-lg-3 >a
 animehdzeroo.com##.col-lg-12
-!animehdzeroo.com##a[href][rel*=dofollow] > img[src*="shirokami.me"]
 animehdzeroo.com##.close-ads
 
 ! 8/7/2563 https://www.lunggildarts-anime.com
@@ -327,7 +298,7 @@ animehdzeroo.com##.close-ads
 
 ! 3/10/2563 https://www.mio-anime.com to https://www.mio-anime.net
 www.mio-anime.net##.img-responsive
-##[style^="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;"]
+!##[style^="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;"]
 
 ! 5/7/2563 axilesoft.com
 @@||pagead2.googlesyndication.com^$script,domain=www.axilesoft.com
@@ -339,20 +310,9 @@ www.techtalkthai.com##.background-cover
 ! 14/8/2563 https://blockadblock.com
 !@@||nonnoifree.com^$generichide
 nonnoifree.com,gg-th.com,blockadblock.com,mini1up.com##+js(nobab)
-!!mawtoload.com,
-!icafepay.in.th##+js(aeld)
 
 ! 2022-01-03 https://twitter.com ล็อคอิน
-twitter.com##.r-1upvrn0.r-l5o3uw.css-1dbjc4n
-
-!AdGuard Base
-!mega.nz##+js(nano-setInterval-booster, addClass('skip'), , 0.02)
-
-! 2021-11-13 https://www.we-play.tv to https://we-play.live die65
-!||we-play.live/images/*.gif$image
-!we-play.live##.jw-reset.jw-logo-top-right.jw-logo
-!we-play.live##.jw-reset.jw-logo-top-left.jw-logo
-!we-play.live##.watch.col-lg-4 > .col-12
+twitter.com##.r-1upvrn0.r-l5o3uw
 
 ! 6/9/2563 https://wetv.vip
 wetv.vip##[data-role^="txp-ui-title-mod"]
@@ -388,7 +348,8 @@ www.facebook.com##.xdj266r.x1n13y8y
 ! 2023-11-05 https://www.facebook.com spam post page https://www.reddit.com/r/uBlockOrigin/comments/139fw7f/help_with_custom_filter_to_remove_sponsored_posts/
 www.facebook.com##li > .x46jau6.x1n2onr6:has-text(/(ผ).*(ม).*(ต).*(า).*(ม).*(บ).*(อ).*(ล)|(ห).*(น).*(้).*(า).*(เ).*(ฟ)|บอลแม่น/)
 ! 2023-11-19 https://www.facebook.com เชื่อมต่อกับ ******* บน Facebook
-facebook.com##+js(trusted-click-element, div[aria-label="ปิด"][role="button"])
+!facebook.com##+js(trusted-click-element, div[aria-label="ปิด"][role="button"])
+facebook.com##+js(trusted-click-element, div[aria-label="ปิด"][role="button"]>i[style*="-63"])
 ! 2023-11-05 https://www.facebook.com top login remove
 !#if !env_legacy
 !www.facebook.com##.xzkaem6.x13vifvy.x17qophe.xixxii4.xds687c.xh8yej3.x1qughib.x78zum5
@@ -489,11 +450,6 @@ axilesoft.com###dvHideAppAd:style(display: inline !important;)
 overseries.tv##div.mb-3.col-lg-12 > .row > .col-lg-12 > .text-center
 overseries.tv##.movie-container.container > div.row > .col-12
 
-! 2023-06-14 https://www.reddit.com
-www.reddit.com##shreddit-async-loader.theme-beta
-www.reddit.com##.sidebar-grid:style(filter: none !important)
-www.reddit.com##.prompt
-
 ! 2023-06-28 https://www.xn--18-3qi5din4cwdvcvkxa5e.com
 xn--18-3qi5din4cwdvcvkxa5e.com##+js(set-constant, adSettings, [])
 xn--18-3qi5din4cwdvcvkxa5e.com##div.above-player-banana
@@ -509,5 +465,7 @@ anime-honeys.com###page > .m-0.row > .text-center.ads_bottom
 anime-honeys.com##.ads-zone
 
 !https://www.reddit.com/r/uBlockOrigin/comments/17xbgue/opening_youtube_video_in_new_tab_takes_so_long_to/
-!!www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+
+!https://github.com/uBlockO/uBO-Scriptlets
 

@@ -53,6 +53,7 @@ animeyuzu.com###animekimiads2
 animeyuzu.com###animekimiads3
 animeyuzu.com###animekimiads4
 animeyuzu.com###animekimiads5
+animeyuzu.com##.code-block
 animeyuzu.com##.lazy.animekimi-banner
 www.24-hd.com##.content > .ad
 anime-indy.com##.position-relative.w-100.site

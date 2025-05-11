@@ -44,8 +44,8 @@ www.seriesday.com##.ad
 www.seriesday.com##.adl
 www.seriesday.com##.adhl
 www.seriesday.com##.adb
-mojianime.com###page > .m-0.row
-mojianime.com##.watch-bnn
+animemoji.tv###page > .m-0.row
+animemoji.tv##.watch-bnn
 ||cdend.com^
 ||googles.video^
 anime-yuzu.com###animekimiads1

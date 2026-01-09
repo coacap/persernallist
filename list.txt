@@ -166,47 +166,63 @@ pantip.com##.pt-snackbar--open.pt-snackbar
 
 ! 22/5/2563 https://mawtoload.com/
 ! 2021-01-21 https://mawtoload.com
-mawtoload.com##+js(acis.js , adlinkfly_url)
-mawtoload.com##.code-block
-mawtoload.com###delayedText:style(visibility:visible !important)
-mawtoload.com###delayedText:style(display: block !important; visibility: visible !important;)
-mawtoload.com###sticky-banner
-mawtoload.com###banner-post
+!mawtoload.com##+js(acis.js , adlinkfly_url)
+!mawtoload.com##.code-block
+!mawtoload.com###delayedText:style(visibility:visible !important)
+!mawtoload.com###delayedText:style(display: block !important; visibility: visible !important;)
+!mawtoload.com###sticky-banner
+!mawtoload.com###banner-post
 
 mawtoload.com###dl-btnwrap:style(visibility:visible !important)
 
 ! 2021-12-26 https://axeload.com
-axeload.com##+js(acis , adlinkfly_url)
-axeload.com##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly_url)
+!axeload.com##+js(acis , adlinkfly_url)
+!axeload.com##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly_url)
 axeload.com##+js(addEventListener-defuser)
-axeload.com##.code-block
+!axeload.com##.code-block
 colabtutorials.com,mukohphetra.com##+js(rpnt, script, (adBlockEnabled), (false))
 !colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, /10|5|2000/, 0)
-axeload.com,mawtoload.com##+js(trusted-click-element, button.btn)
+!axeload.com,mawtoload.com##+js(trusted-click-element, button.btn)
 axeload.com##+js(trusted-click-element, div>.button)
-axetutorials.com##+js(trusted-click-element, a[href][rel="nofollow"])
+!axetutorials.com##+js(trusted-click-element, a[href][rel="nofollow"])
 !colabtutorials.com,mukohphetra.com##+js(trusted-click-element, #wpsafe-link > a > .btn-primary.btn)
-colabtutorials.com,mukohphetra.com##+js(trusted-click-element, img[src*="Button-1.png"][alt="image3"])
-mawtoload.com##+js(trusted-click-element, a.btn)
+!colabtutorials.com,mukohphetra.com##+js(trusted-click-element, img[src*="Button-1.png"][alt="image3"])
+!mawtoload.com##+js(trusted-click-element, a.btn)
+
+
 mawtoload.com##+js(trusted-click-element, .button)
 ! แก้ปุ่มเด้ง popup ปลอม
 mawtoload.com##+js(addEventListener-defuser, click)
+mawtoload.com,axeload.com##+js(rpnt, script, (!el), (true))
+
+
+! 9 ม.ค. 2569 https://axeload.com
+mukohphetra.com##+js(rpnt, script, (response.length === 0), (false))
+mukohphetra.com##+js(rpnt, script, let wpsafelinkCount = 10;, let wpsafelinkCount = 0;)
+mukohphetra.com##+js(trusted-click-element, #wpsafe-link > a)
 
 
 ! 2022-02-03 https://colabtutorials.com https://axeload.com/
-axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)
-colabtutorials.com,mukohphetra.com#@#.code-block:has(img)
-axeload.com,colabtutorials.com,mukohphetra.com##+js(noeval)
-!||axetutorials.com/home/colab/thank-for-choose-our-site.php$popup,domain=axeload.com
-karanpc.com###downloadButton:style(display: inline !important; visibility: visible !important;)
-karanpc.com###countdown
-karanpc.com##+js(trusted-click-element, form>input:nth-of-type(2))
+!axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)
+!colabtutorials.com,mukohphetra.com#@#.code-block:has(img)
+!axeload.com,colabtutorials.com,mukohphetra.com##+js(noeval)
+
+!karanpc.com###downloadButton:style(display: inline !important; visibility: visible !important;)
+!karanpc.com###countdown
+!karanpc.com##+js(trusted-click-element, form>input:nth-of-type(2))
+! 9 ม.ค. 2569 https://karanpc.com
+karanpc.com##+js(trusted-click-element, .litespeed-loaded.entered.save-button-image)
+!karanpc.com##+js(rpnt, script, var totalTime = 2;, var totalTime = -1;)
+karanpc.com##+js(rpnt, script, var isReady = false; , var isReady = true;)
+!karanpc.com##+js(rpnt, script, (timeLeft < 0) , (true))
+
 
 ! 21 ธ.ค. 2567 https://vk.com
-!vk.com##+js(trusted-click-element, .VideoRestriction__button)
 vk.com###box_layer_wrap
 vk.com###box_layer_bg
 vk.com##.vkitFooterBanner__bannerAppearanceAzure--E3ITX.vkitFooterBanner__bannerAnimated--tocqP.vkitFooterBanner__banner--9zIT7
+! 5 ม.ค. 2569 https://vk.com
+vk.com##.chat_hide_button_enabled.videoplayer_action_button
 
 !https://www.doolunla.com/ พัง
 playerlunla.com##+js(abort-current-inline-script, $, check_av)
@@ -507,7 +523,4 @@ www.up-manga.com## .sticky-close
 1112hds.com##.vipx--l-static.vipx--g-a.vipx-grid
 1112hdz.com##div.bg-\[var\(--color-background\)\].p-4.max-lg\:px-2.mx-auto.max-w-8xl:nth-of-type(1),
 1112hdz.com##.vipx-float-open.vipx--l-fixed-bottom.vipx--g-d.vipx-grid
-
-! 5 ม.ค. 2569 https://vk.com
-vk.com##.chat_hide_button_enabled.videoplayer_action_button
 

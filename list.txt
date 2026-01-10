@@ -154,7 +154,11 @@ https://googles.video$domain=leoplayer1.com
 vdoad3.online/vdo/macau1.mp4$domain=leoplayer1.com
 /Banner/$domain=037hddmovie.com
 037hddmovie.com##.sidebarborder:has(div[style^="text-align: center;"])
-leoplayer7.com##+js(set-constant, Object.prototype.ads, undefined)
+!leoplayer7.com##+js(set-constant, Object.prototype.ads, undefined)
+
+!123hd
+!123hdtv.com,24playerhd.com##+js(rpnt, script, "autostart": "false" , "autostart": "true" )
+123hdtv.com,24playerhd.com##+js(rpnt, script,Quality(1);,Quality(2);)
 
 ! 21/5/2563 https://dunnung.com https://dodonung.com
 dunnung.com###banner-left
@@ -193,17 +197,23 @@ axeload.com##+js(trusted-click-element, div>.button)
 mawtoload.com##+js(trusted-click-element, .button)
 ! แก้ปุ่มเด้ง popup ปลอม
 mawtoload.com##+js(addEventListener-defuser, click)
-mawtoload.com,axeload.com##+js(rpnt, script, (!el), (true))
+mawtoload.com##+js(rpnt, script, (!el), (true))
+mawtoload.com##+js(rpnt, script, (t<=0), (true))
 
+!ใช้ไม่ได้ติดลูบ
+!mawtoload.com##+js(rpnt, script, function onTSOk(){try{document.getElementById('tsForm').submit();}catch(e){}} , function onTSOk(){ try{ document.getElementById('tsForm').submit(); }catch(e){} } onTSOk(); )
 
 ! 9 ม.ค. 2569 https://axeload.com
 mukohphetra.com##+js(rpnt, script, (response.length === 0), (false))
 mukohphetra.com##+js(rpnt, script, let wpsafelinkCount = 10;, let wpsafelinkCount = 0;)
 mukohphetra.com##+js(trusted-click-element, #wpsafe-link > a)
+axeload.com##+js(set, window.__dlInit__, true)
+!axeload.com##+js(abort-on-property-read, __dlInit__)
+!axeload.com##+js(trusted-set, window.__dlInit__, true)
 
 
 ! 2022-02-03 https://colabtutorials.com https://axeload.com/
-!axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)
+!axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)0
 !colabtutorials.com,mukohphetra.com#@#.code-block:has(img)
 !axeload.com,colabtutorials.com,mukohphetra.com##+js(noeval)
 

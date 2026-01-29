@@ -158,7 +158,11 @@ vdoad3.online/vdo/macau1.mp4$domain=leoplayer1.com
 
 !123hd
 !123hdtv.com,24playerhd.com##+js(rpnt, script, "autostart": "false" , "autostart": "true" )
-123hdtv.com,24playerhd.com##+js(rpnt, script,Quality(1);,Quality(2);)
+!123hdtv.com,24playerhd.com##+js(rpnt, script,Quality(1);,Quality(2);)
+123hdtv.com,24playerhd.com##+js(rpnt, script, /Quality\(1\);/, "Quality(2);")
+!24playerhd.com##+js(trusted-replace-node-text, script, /setCurrentQuality\(1\)/, "setCurrentQuality(2)")
+
+
 
 ! 21/5/2563 https://dunnung.com https://dodonung.com
 dunnung.com###banner-left
@@ -446,6 +450,7 @@ anime-yuzu.com##.lazy.animekimi-banner
 ! 2023-01-26 https://fairyanime.net
 fairyanime.net##.bounce.animated.kosana.concise
 tonytonychopper.com##+js(nano-sib)
+fairyanime.net,tonytonychopper.com##+js(trusted-click-element, #main:nth-child(2))
 
 ! 2023-05-11 https://anime-hit.com https://series-indy.com/ https://anime-hit.com/
 anime-hit.com##a.img-responsive
@@ -502,6 +507,8 @@ goseries4k.com##.vipx--l-static.vipx--g-b.vipx-grid
 goseries4k.com##.vipx-float-open.vipx-grid
 goseries4k.com##.jw-floating-dismissible.jw-breakpoint-6.jw-stretch-uniform.jw-state-idle.jw-reset.jwplayer
 goseries4k.com###pm-dessert
+goseries4k.com###content > div.s-container:nth-of-type(1)
+goseries4k.com##.vipx-grid
 
 !https://www.reddit.com/r/uBlockOrigin/comments/1nqpsbv/can_ublock_change_some_parts_of_the_url_in_order/
 !/^https:\/\/x\.com\/(.*)/$doc,to=x.com,uritransform=//https:\/\/nitter.poast.org\/$1/
@@ -528,9 +535,4 @@ www.up-manga.com## .sticky-close
 
 ! 1 ธ.ค. 2568 https://037-anime.com
 037-anime.com##.vipx--l-static.vipx--g-b.vipx-grid > div.vipx-item > .vipx-img
-
-! 5 ธ.ค. 2568 https://1112hds.com
-1112hds.com##.vipx--l-static.vipx--g-a.vipx-grid
-1112hdz.com##div.bg-\[var\(--color-background\)\].p-4.max-lg\:px-2.mx-auto.max-w-8xl:nth-of-type(1),
-1112hdz.com##.vipx-float-open.vipx--l-fixed-bottom.vipx--g-d.vipx-grid
 

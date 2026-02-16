@@ -154,7 +154,7 @@ https://googles.video$domain=leoplayer1.com
 vdoad3.online/vdo/macau1.mp4$domain=leoplayer1.com
 /Banner/$domain=037hddmovie.com
 037hddmovie.com##.sidebarborder:has(div[style^="text-align: center;"])
-!leoplayer7.com##+js(set-constant, Object.prototype.ads, undefined)
+leoplayer7.com##+js(set-constant, Object.prototype.ads, undefined)
 
 !123hd
 !123hdtv.com,24playerhd.com##+js(rpnt, script, "autostart": "false" , "autostart": "true" )
@@ -232,11 +232,12 @@ karanpc.com##+js(rpnt, script, var isReady = false; , var isReady = true;)
 
 
 ! 21 ธ.ค. 2567 https://vk.com
-vk.com###box_layer_wrap
-vk.com###box_layer_bg
-vk.com##.vkitFooterBanner__bannerAppearanceAzure--E3ITX.vkitFooterBanner__bannerAnimated--tocqP.vkitFooterBanner__banner--9zIT7
+!vk.com###box_layer_wrap
+!vk.com###box_layer_bg
+vk.com##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__bannerAnimated--rzpRh.vkitFooterBanner__banner--JBGVC
 ! 5 ม.ค. 2569 https://vk.com
 vk.com##.chat_hide_button_enabled.videoplayer_action_button
+vk.com###page_bottom_banners_root:style(display: none !important;)
 
 !https://www.doolunla.com/ พัง
 playerlunla.com##+js(abort-current-inline-script, $, check_av)
@@ -452,6 +453,9 @@ fairyanime.net##.bounce.animated.kosana.concise
 tonytonychopper.com##+js(nano-sib)
 fairyanime.net,tonytonychopper.com##+js(trusted-click-element, #main:nth-child(2))
 
+anime-yuzu.com##+js(trusted-click-element, li:nth-of-type(3))
+!
+
 ! 2023-05-11 https://anime-hit.com https://series-indy.com/ https://anime-hit.com/
 anime-hit.com##a.img-responsive
 anime-hit.com###adsR.m-0.row
@@ -527,7 +531,7 @@ goseries4k.com##.vipx-grid
 !facebook.com###scrollview:style(position: static !important; width: unset !important; height: unset !important; overflow: unset !important;)
 
 ! 13 พ.ย. 2568 https://www.up-manga.com
-www.up-manga.com## .sticky-close
+up-manga.com## .sticky-close
 
 !https://www.reddit.com/r/uBlockOrigin/comments/1p11pyd/how_to_disable_facebooks_pip_mode_using_ublock/
 !https://www.reddit.com/r/uBlockOrigin/comments/1or0sbt/a_possible_way_to_bring_back_the_old_youtube/ https://www.reddit.com/r/uBlockOrigin/comments/1ogj3ss/new_youtube_ui_improved/ https://www.reddit.com/r/uBlockOrigin/comments/1ontvi5/new_youtube_ui_improved_x2_i_added_fullscreen/ https://www.reddit.com/r/uBlockOrigin/comments/1o6skxk/youtube_recover_the_endscreen_suggestions_in_new/
@@ -535,4 +539,11 @@ www.up-manga.com## .sticky-close
 
 ! 1 ธ.ค. 2568 https://037-anime.com
 037-anime.com##.vipx--l-static.vipx--g-b.vipx-grid > div.vipx-item > .vipx-img
+
+!พับจอ เปลี่ยน Tab ให้ไม่หยุด video
+facebook.com,wetv.vip,tiktok.com##+js(addEventListener-defuser, visibilitychange)
+facebook.com,wetv.vip##+js(addEventListener-defuser, blur)
+
+! 6 ก.พ. 2569 https://www.mangakimi.com
+www.mangakimi.com##.header-ads-section
 

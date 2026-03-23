@@ -139,6 +139,7 @@ youtube.com##[id*="player"]:style(border-radius: 0px !important)
 ! 25 ต.ค. 2568 https://www.youtube.com
 www.youtube.com##.iv-click-target.branding-img
 www.youtube.com##.ytp-button.branding-img-container
+$removeparam=index,domain=youtube.com|youtu.be
 
 ! 7/11/2562 https://www.037hdd.com 
 !www.037hdd.com##.filmborder:not(:has(.filmcontent))
@@ -154,12 +155,12 @@ https://googles.video$domain=leoplayer1.com
 vdoad3.online/vdo/macau1.mp4$domain=leoplayer1.com
 /Banner/$domain=037hddmovie.com
 037hddmovie.com##.sidebarborder:has(div[style^="text-align: center;"])
-leoplayer7.com##+js(set-constant, Object.prototype.ads, undefined)
+leoplayer7.com,master.streamhls.com##+js(set-constant, Object.prototype.ads, undefined)
 
 !123hd
 !123hdtv.com,24playerhd.com##+js(rpnt, script, "autostart": "false" , "autostart": "true" )
 !123hdtv.com,24playerhd.com##+js(rpnt, script,Quality(1);,Quality(2);)
-123hdtv.com,24playerhd.com##+js(rpnt, script, /Quality\(1\);/, "Quality(2);")
+24playerhd.com,123-hds.com##+js(rpnt, script, /Quality\(1\);/, "Quality(2);")
 !24playerhd.com##+js(trusted-replace-node-text, script, /setCurrentQuality\(1\)/, "setCurrentQuality(2)")
 
 
@@ -173,71 +174,36 @@ dodonung.com,dunnung.com##a[href] > img[src*=gif]
 pantip.com##.pt-snackbar--open.pt-snackbar
 
 ! 22/5/2563 https://mawtoload.com/
-! 2021-01-21 https://mawtoload.com
-!mawtoload.com##+js(acis.js , adlinkfly_url)
-!mawtoload.com##.code-block
-!mawtoload.com###delayedText:style(visibility:visible !important)
-!mawtoload.com###delayedText:style(display: block !important; visibility: visible !important;)
-!mawtoload.com###sticky-banner
-!mawtoload.com###banner-post
-
-mawtoload.com###dl-btnwrap:style(visibility:visible !important)
-
-! 2021-12-26 https://axeload.com
-!axeload.com##+js(acis , adlinkfly_url)
-!axeload.com##+js(addEventListener-defuser, DOMContentLoaded, adlinkfly_url)
-axeload.com##+js(addEventListener-defuser)
-!axeload.com##.code-block
-colabtutorials.com,mukohphetra.com##+js(rpnt, script, (adBlockEnabled), (false))
-!colabtutorials.com,mukohphetra.com##+js(replace-node-text, script, /10|5|2000/, 0)
-!axeload.com,mawtoload.com##+js(trusted-click-element, button.btn)
-axeload.com##+js(trusted-click-element, div>.button)
-!axetutorials.com##+js(trusted-click-element, a[href][rel="nofollow"])
-!colabtutorials.com,mukohphetra.com##+js(trusted-click-element, #wpsafe-link > a > .btn-primary.btn)
-!colabtutorials.com,mukohphetra.com##+js(trusted-click-element, img[src*="Button-1.png"][alt="image3"])
-!mawtoload.com##+js(trusted-click-element, a.btn)
-
-
+!mawtoload.com###dl-btnwrap:style(visibility:visible !important)
 mawtoload.com##+js(trusted-click-element, .button)
 ! แก้ปุ่มเด้ง popup ปลอม
 mawtoload.com##+js(addEventListener-defuser, click)
 mawtoload.com##+js(rpnt, script, (!el), (true))
 mawtoload.com##+js(rpnt, script, (t<=0), (true))
 
-!ใช้ไม่ได้ติดลูบ
-!mawtoload.com##+js(rpnt, script, function onTSOk(){try{document.getElementById('tsForm').submit();}catch(e){}} , function onTSOk(){ try{ document.getElementById('tsForm').submit(); }catch(e){} } onTSOk(); )
+! 2021-12-26 https://axeload.com
+axeload.com##+js(addEventListener-defuser)
+colabtutorials.com,mukohphetra.com##+js(rpnt, script, (adBlockEnabled), (false))
+axeload.com##+js(trusted-click-element, div>.button)
 
-! 9 ม.ค. 2569 https://axeload.com
 mukohphetra.com##+js(rpnt, script, (response.length === 0), (false))
 mukohphetra.com##+js(rpnt, script, let wpsafelinkCount = 10;, let wpsafelinkCount = 0;)
 mukohphetra.com##+js(trusted-click-element, #wpsafe-link > a)
 axeload.com##+js(set, window.__dlInit__, true)
-!axeload.com##+js(abort-on-property-read, __dlInit__)
-!axeload.com##+js(trusted-set, window.__dlInit__, true)
-
 
 ! 2022-02-03 https://colabtutorials.com https://axeload.com/
-!axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)0
-!colabtutorials.com,mukohphetra.com#@#.code-block:has(img)
-!axeload.com,colabtutorials.com,mukohphetra.com##+js(noeval)
+!axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)
 
-!karanpc.com###downloadButton:style(display: inline !important; visibility: visible !important;)
-!karanpc.com###countdown
-!karanpc.com##+js(trusted-click-element, form>input:nth-of-type(2))
 ! 9 ม.ค. 2569 https://karanpc.com
 karanpc.com##+js(trusted-click-element, .litespeed-loaded.entered.save-button-image)
-!karanpc.com##+js(rpnt, script, var totalTime = 2;, var totalTime = -1;)
 karanpc.com##+js(rpnt, script, var isReady = false; , var isReady = true;)
-!karanpc.com##+js(rpnt, script, (timeLeft < 0) , (true))
 
 
 ! 21 ธ.ค. 2567 https://vk.com
-!vk.com###box_layer_wrap
-!vk.com###box_layer_bg
-vk.com##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__bannerAnimated--rzpRh.vkitFooterBanner__banner--JBGVC
-! 5 ม.ค. 2569 https://vk.com
-vk.com##.chat_hide_button_enabled.videoplayer_action_button
-vk.com###page_bottom_banners_root:style(display: none !important;)
+vk.com,vk.ru##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__bannerAnimated--rzpRh.vkitFooterBanner__banner--JBGVC
+vk.com,vk.ru##.chat_hide_button_enabled.videoplayer_action_button
+vk.com,vk.ru###page_bottom_banners_root:style(display: none !important;)
+vk.com,vk.ru##.PageBottomBanner--unauth
 
 !https://www.doolunla.com/ พัง
 playerlunla.com##+js(abort-current-inline-script, $, check_av)
@@ -453,8 +419,7 @@ fairyanime.net##.bounce.animated.kosana.concise
 tonytonychopper.com##+js(nano-sib)
 fairyanime.net,tonytonychopper.com##+js(trusted-click-element, #main:nth-child(2))
 
-anime-yuzu.com##+js(trusted-click-element, li:nth-of-type(3))
-!
+anime-yuzu.com,stream.matchalatte.club,stream.matchalatte.club##+js(trusted-click-element, li:nth-of-type(3))
 
 ! 2023-05-11 https://anime-hit.com https://series-indy.com/ https://anime-hit.com/
 anime-hit.com##a.img-responsive
@@ -499,10 +464,10 @@ anime-good.com,moji.team-indy.net##+js(trusted-click-element, .sl-honey-2.sl-src
 ! 14 ส.ค. 2567 https://github.com/wandering-oldman !https://www.reddit.com/r/uBlockOrigin/comments/18kq4is/stop_auto_refresh/ stop meta "refresh" tag
 github.io##+js(refresh-defuser)
 
-! 4 ม.ค. 2568 https://anime-indy.com anime-indy.net anime-indy.tv
-anime-indy.tv##.mb-no-p.bg-none.container.a_head
-anime-indy.tv##.img-responsive
-anime-indy.tv##.ez-row-post>.watch-bnn
+! 4 ม.ค. 2568 https://anime-indy.com anime-indy.net anime-indy.tv indy-anime.net
+indy-anime.net##.mb-no-p.bg-none.container.a_head
+indy-anime.net##.img-responsive
+indy-anime.net##.ez-row-post>.watch-bnn
 indy.team-indy.net###overlay
 
 ! 30 พ.ค. 2568 https://goseries4k.com
@@ -511,7 +476,6 @@ goseries4k.com##.vipx--l-static.vipx--g-b.vipx-grid
 goseries4k.com##.vipx-float-open.vipx-grid
 goseries4k.com##.jw-floating-dismissible.jw-breakpoint-6.jw-stretch-uniform.jw-state-idle.jw-reset.jwplayer
 goseries4k.com###pm-dessert
-goseries4k.com###content > div.s-container:nth-of-type(1)
 goseries4k.com##.vipx-grid
 
 !https://www.reddit.com/r/uBlockOrigin/comments/1nqpsbv/can_ublock_change_some_parts_of_the_url_in_order/
@@ -546,4 +510,15 @@ facebook.com,wetv.vip##+js(addEventListener-defuser, blur)
 
 ! 6 ก.พ. 2569 https://www.mangakimi.com
 www.mangakimi.com##.header-ads-section
+
+! 14 มี.ค. 2569 https://vk.ru
+vk.ru##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__bannerAnimated--rzpRh.vkitFooterBanner__banner--JBGVC
+vk.ru##.PageBottomBanner--bg-blue.PageBottomBanner--animated.PageBottomBanner--unauth.PageBottomBanner
+
+! 19 มี.ค. 2569 https://www.xn--l3c0azab5a2gta.com
+www.xn--l3c0azab5a2gta.com##.ads
+
+
+njavtv.com##+js(addEventListener-defuser, visibilitychange)
+njavtv.com##+js(addEventListener-defuser, blur)
 

@@ -28,9 +28,6 @@ instagram.com#?#div[class^=" _"][style^="width: "]:only-of-type:has(a[href^="/ac
 instagram.com###fb-root + div[role=presentation]
 www.instagram.com##div[data-visualcompletion=ignore] + div[class*=" "]
 
-! 27/10/2561 22:05:13 http://www.leoplayer1.com/watch?v=901565
-www.leoplayer1.com###player_banner
-
 ! 10/1/2562 01:39:15 https://www.soccersuck.com/boards/topic/
 soccersuck.com##div.adv_A:remove()
 ! 8/11/2562 https://www.soccersuck.com
@@ -157,12 +154,11 @@ vdoad3.online/vdo/macau1.mp4$domain=leoplayer1.com
 037hddmovie.com##.sidebarborder:has(div[style^="text-align: center;"])
 leoplayer7.com,master.streamhls.com##+js(set-constant, Object.prototype.ads, undefined)
 
-!123hd
+!123hd 123-hds.com
 !123hdtv.com,24playerhd.com##+js(rpnt, script, "autostart": "false" , "autostart": "true" )
 !123hdtv.com,24playerhd.com##+js(rpnt, script,Quality(1);,Quality(2);)
-24playerhd.com,123-hds.com##+js(rpnt, script, /Quality\(1\);/, "Quality(2);")
+!24playerhd.com,123-hds.com##+js(rpnt, script, /Quality\(1\);/, "Quality(2);")
 !24playerhd.com##+js(trusted-replace-node-text, script, /setCurrentQuality\(1\)/, "setCurrentQuality(2)")
-
 
 
 ! 21/5/2563 https://dunnung.com https://dodonung.com
@@ -183,13 +179,20 @@ mawtoload.com##+js(rpnt, script, (t<=0), (true))
 
 ! 2021-12-26 https://axeload.com
 axeload.com##+js(addEventListener-defuser)
-colabtutorials.com,mukohphetra.com##+js(rpnt, script, (adBlockEnabled), (false))
-axeload.com##+js(trusted-click-element, div>.button)
+!colabtutorials.com,mukohphetra.com##+js(rpnt, script, (adBlockEnabled), (false))
 
-mukohphetra.com##+js(rpnt, script, (response.length === 0), (false))
-mukohphetra.com##+js(rpnt, script, let wpsafelinkCount = 10;, let wpsafelinkCount = 0;)
-mukohphetra.com##+js(trusted-click-element, #wpsafe-link > a)
-axeload.com##+js(set, window.__dlInit__, true)
+!axeload.com##+js(set, window.__dlInit__, true)
+!mukohphetra.com##+js(rpnt, script, (response.length === 0), (false))
+!mukohphetra.com##+js(rpnt, script, let wpsafelinkCount = 10;, let wpsafelinkCount = 0;)
+!mukohphetra.com##+js(trusted-click-element, #wpsafe-link > a)
+
+axeload.com##+js(trusted-click-element, div>.button)
+axeload.com##+js(trusted-click-element, .fi-btn-main)
+mukohphetra.com##+js(trusted-click-element, .smart-btn)
+axeload.com##+js(set, window.__btnActionInit__, true)
+mukohphetra.com##+js(rpnt, script,totalSeconds = 10, totalSeconds = 1)
+
+mukohphetra.com##+js(trusted-click-element, .sg-btn)
 
 ! 2022-02-03 https://colabtutorials.com https://axeload.com/
 !axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)
@@ -204,6 +207,9 @@ vk.com,vk.ru##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__
 vk.com,vk.ru##.chat_hide_button_enabled.videoplayer_action_button
 vk.com,vk.ru###page_bottom_banners_root:style(display: none !important;)
 vk.com,vk.ru##.PageBottomBanner--unauth
+vk.ru##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__bannerAnimated--rzpRh.vkitFooterBanner__banner--JBGVC
+vk.ru##.PageBottomBanner--bg-blue.PageBottomBanner--animated.PageBottomBanner--unauth.PageBottomBanner
+
 
 !https://www.doolunla.com/ พัง
 playerlunla.com##+js(abort-current-inline-script, $, check_av)
@@ -262,7 +268,7 @@ movie-th.com#$##videoWrapper { display: block!important; }
 
 !5play.ru##+js(nano-sib)
 5play.ru,lenov.ru##+js(nano-sib, , ,0.001)
-nexusmods.com,gamemod.io##+js(nano-stb, , ,0.001)
+!nexusmods.com,gamemod.io##+js(nano-stb, , ,0.001)
 
 !037
 !wss://tracker2.youlive-cdn.com/?x=28f6ef8c1908877896c124384b8e3d3f&t=1592463040219
@@ -381,13 +387,13 @@ anime-suba.com##div.LazyLoad.Anadvertisement
 anime-suba.com##+js(nano-sib)
 
 ! 2021-09-05 https://animekimi.com www.anime-yuzu.com >>stream.animeorder.com
-mewplayer.com##+js(aopr, jwplayer.utils.Timer)
-mewplayer.com##+js(aopr, __Y)
-mewplayer.com##+js(aopw, adcashMacros)
-mewplayer.com##+js(aopr, AaDetector)
-mewplayer.com##+js(aopr, glxopen)
-mewplayer.com##+js(set, globalThis, null)
-mewplayer.com##+js(window.open-defuser)
+!mewplayer.com##+js(aopr, jwplayer.utils.Timer)
+!mewplayer.com##+js(aopr, __Y)
+!mewplayer.com##+js(aopw, adcashMacros)
+!mewplayer.com##+js(aopr, AaDetector)
+!mewplayer.com##+js(aopr, glxopen)
+!mewplayer.com##+js(set, globalThis, null)
+!mewplayer.com##+js(window.open-defuser)
 !||animekimi.com/player/*$subdocument
 !playermeow.com,animekimi.com,animeyuzu.com##+js(nowoif, /^/, 2)
 !https://github.com/AdguardTeam/AdguardFilters/issues/74246
@@ -411,15 +417,15 @@ playermeow.com,playhydrax.com##+js(nowoif, /^/, 1)
 
 @@||facebook.com/*/plugins/$from=~facebook.com
 #@#.fb-page
-anime-yuzu.com##[id*="animekimiads"]
-anime-yuzu.com##.lazy.animekimi-banner
+!anime-yuzu.com##[id*="animekimiads"]
+!anime-yuzu.com##.lazy.animekimi-banner
 
 ! 2023-01-26 https://fairyanime.net
 fairyanime.net##.bounce.animated.kosana.concise
-tonytonychopper.com##+js(nano-sib)
-fairyanime.net,tonytonychopper.com##+js(trusted-click-element, #main:nth-child(2))
+!tonytonychopper.com##+js(nano-sib)
+!fairyanime.net,tonytonychopper.com##+js(trusted-click-element, #main:nth-child(2))
 
-anime-yuzu.com,stream.matchalatte.club,stream.matchalatte.club##+js(trusted-click-element, li:nth-of-type(3))
+animewaku.com,anime-yuzu.com,stream.matchalatte.club,stream.matchalatte.club##+js(trusted-click-element, li:nth-of-type(3))
 
 ! 2023-05-11 https://anime-hit.com https://series-indy.com/ https://anime-hit.com/
 anime-hit.com##a.img-responsive
@@ -511,14 +517,29 @@ facebook.com,wetv.vip##+js(addEventListener-defuser, blur)
 ! 6 ก.พ. 2569 https://www.mangakimi.com
 www.mangakimi.com##.header-ads-section
 
-! 14 มี.ค. 2569 https://vk.ru
-vk.ru##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__bannerAnimated--rzpRh.vkitFooterBanner__banner--JBGVC
-vk.ru##.PageBottomBanner--bg-blue.PageBottomBanner--animated.PageBottomBanner--unauth.PageBottomBanner
-
 ! 19 มี.ค. 2569 https://www.xn--l3c0azab5a2gta.com
 www.xn--l3c0azab5a2gta.com##.ads
 
+! 26 มี.ค. 2569 https://www.n-jav.com
+njavtv.com,n-jav.com##+js(addEventListener-defuser, visibilitychange)
+njavtv.com,n-jav.com##+js(addEventListener-defuser, blur)
+n-jav.com,ibucket.org##+js(set-constant, document.hidden, false)
 
-njavtv.com##+js(addEventListener-defuser, visibilitychange)
-njavtv.com##+js(addEventListener-defuser, blur)
+! ปิดกั้น loading="lazy" ทั่วทุกเว็บไซต์
+example.com##+js(trusted-set-attr, img[data-src], src, [data-src])
+example.com##+js(set-constant, lazyLoadConfig.enabled, false)
+example.com##+js(set-constant, lazyload, false)
+example.com##+js(set-constant, IntersectionObserver, noopFunc)
+
+
+! 1. สั่งให้วิดีโอในฟังก์ชัน vroll กลายเป็นค่าว่าง (Empty Array)
+moji.team-indy.net##+js(trusted-replace-node-text, script, /player\.vroll\(\[[\s\S]*?\]\)/, player.vroll([]))
+
+! 1 เม.ย. 2569 https://flixmono.com
+flixmono.com##.vipx-item--floating.vipx-item
+flixmono.com##.vipx--l-static.vipx--g-c.vipx-grid
+flixmono.com##span.episode:nth-of-type(-n+38)
+
+! 7 เม.ย. 2569 https://www.animewaku.com
+www.animewaku.com##article.item:not(:has-text(จบแล้ว))
 

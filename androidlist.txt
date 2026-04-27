@@ -17,16 +17,16 @@ www.dooseries4k.com##.h-100.w-100 > tbody > tr
 ||cdend.com$domain=steamseries88.com
 ||googles.video$domain=steamseries88.com
 ||upfastfile.com$domain=steamseries88.com
-123-hd.com###banner_top
-123-hd.com###banner_right
-123-hd.com##img[width="728"][height="90"]
-123-hd.com###banner_plow
+123-hds.com###banner_top
+123-hds.com###banner_right
+123-hds.com##img[width="728"][height="90"]
+123-hds.com###banner_plow
 ! 2022-08-31 https://www.anime-masters.com
-anime-masters.com##div.container > .row > .center_lnwphp
-anime-masters.com##div#slider-b.banner-close
-anime-masters.com##.col-md-12 > center >p
-anime-masters.com##center > p
-anime-masters.com##.col_delb
+anime-masterx.com##div.container > .row > .center_lnwphp
+anime-masterx.com##div#slider-b.banner-close
+anime-masterx.com##.col-md-12 > center >p
+anime-masterx.com##center > p
+anime-masterx.com##.col_delb
 ! 2022-08-31 https://www.xn--l3c0azab5a2gta.com
 xn--l3c0azab5a2gta.com##.ads
 ! 2022-02-14 https://goseries4k.com https://series2day.com
@@ -34,12 +34,12 @@ goseries4k.com,streaming-p2p.xyz,player-hd.com##.jw-reset.jw-hide.jw-logo-top-le
 goseries4k.com##.entry-content
 goseries4k.com##.ads-bottom
 ! 2023-06-04 https://www.seriesday.com
-www.seriesday.com##.ad
-www.seriesday.com##.adl
-www.seriesday.com##.adhl
-www.seriesday.com##.adb
-animemoji.tv###page > .m-0.row
-animemoji.tv##.watch-bnn
+serie-days.com##.ad
+serie-days.com##.adl
+serie-days.com##.adhl
+serie-days.com##.adb
+animemeiji.com###page > .m-0.row
+animemeiji.com##.watch-bnn
 ||cdend.com^
 ||googles.video^
 animewaku.com###animekimiads1

@@ -52,3 +52,6 @@ animewaku.com##.lazy.animekimi-banner
 www.24-hds.com##.content > .ad
 indy-anime.net##.position-relative.w-100.site
 indy-anime.net##.d-flex.watch-bnn
+indy-anime.net##.ez-row-post > .watch-bnn
+indy-anime.net##.img-responsive
+indy-anime.net##.mb-no-p.bg-none.container.a_head

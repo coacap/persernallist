@@ -55,3 +55,4 @@ indy-anime.net##.d-flex.watch-bnn
 indy-anime.net##.ez-row-post > .watch-bnn
 indy-anime.net##.img-responsive
 indy-anime.net##.mb-no-p.bg-none.container.a_head
+indy-anime.net##.text-center.ads_bottom

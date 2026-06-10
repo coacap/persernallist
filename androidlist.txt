@@ -31,8 +31,12 @@ anime-masterx.com##.col_delb
 xn--l3c0azab5a2gta.com##.ads
 ! 2022-02-14 https://goseries4k.com https://series2day.com
 goseries4k.com,streaming-p2p.xyz,player-hd.com##.jw-reset.jw-hide.jw-logo-top-left.jw-logo
-goseries4k.com##.entry-content
-goseries4k.com##.ads-bottom
+goseries4k.com##center
+goseries4k.com##.vipx--l-static.vipx--g-b.vipx-grid
+goseries4k.com##.vipx-float-open.vipx-grid
+goseries4k.com##.jw-floating-dismissible.jw-breakpoint-6.jw-stretch-uniform.jw-state-idle.jw-reset.jwplayer
+goseries4k.com###pm-dessert
+goseries4k.com##.vipx-grid
 ! 2023-06-04 https://www.seriesday.com
 serie-days.com##.ad
 serie-days.com##.adl

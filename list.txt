@@ -26,7 +26,7 @@ instagram.com#?#div[style*=spectrum-cherry]:has(form[id^=loginForm i])
 instagram.com#?#div[class^=" _"][style^="width: "]:only-of-type:has(a[href^="/accounts/emailsignup/"])
 
 instagram.com###fb-root + div[role=presentation]
-www.instagram.com##div[data-visualcompletion=ignore] + div[class*=" "]
+instagram.com##div[data-visualcompletion=ignore] + div[class*=" "]
 
 ! 10/1/2562 01:39:15 https://www.soccersuck.com/boards/topic/
 soccersuck.com##div.adv_A:remove()
@@ -35,11 +35,10 @@ soccersuck.com##div.adv_A:remove()
 soccersuck.com#@#a[rel*="ofollow"] > img[src*="gif"]
 soccersuck.com#@#[rel^="nofollow"]
 soccersuck.com#@#a[rel*="nofollow"] > img[src*="webp"]
-www.soccersuck.com##div#container > div.adv_a
+!www.soccersuck.com##div#container > div.adv_a
 
 ! 2022-11-04 https://www.reddit.com/r/uBlockOrigin/comments/ykm4xa/how_can_i_block_these_ads_on_outlookcom/ For the Ad in Inbox, can you check  !For the bottom part, maybe this? !Maybe restrict it a bit if you think it might cause false positives
 outlook.live.com##div.full:has(div:not([class]) .fbAdLink)
-outlook.live.com##.ms-FocusZone.customScrollBar ~ div
 outlook.live.com##.ms-FocusZone.customScrollBar ~ div:has(button span:has-text(/OneDrive|365/))
 ! 2022-11-09 https://onedrive.live.com สำหรับคุณ tabด้านบน
 onedrive.live.com##div.od-ItemContent-header.od-ItemsScopeItemContent-header:nth-of-type(3)
@@ -58,18 +57,16 @@ onedrive.live.com##.headerContainer_42cc2ced
 ! 2021-11-07 https://xn--24-3qi3cza1b2a4dxc2byb.com
 !||van1.mvx-master4.work^$media,redirect=noop-0.1s.mp3
 
-facebook.com##._5hn6
-
 !https://postto.me/1y/8b4.png
 ! 2021-03-27 https://www.youtube.com
-www.youtube.com##.ytp-ce-element
+!www.youtube.com##.ytp-ce-element
 
 ! 26/3/2562 trueid.net  แก้จอดำ
 @@||src.litix.io/videojs/2/videojs-mux.js$script,domain=tv.trueid.net
 
 ! 31/3/2562 https://www.movie2free.com
-www.movie2free.com##.notice > h2
-www.movie2free.com##body > div:nth-of-type(5)
+!www.movie2free.com##.notice > h2
+!www.movie2free.com##body > div:nth-of-type(5)
 
 ! 28/6/2562 https://www.twitch.tv
 ! 31/12/2564 https://www.twitch.tv freeloot
@@ -119,10 +116,7 @@ www.youtube.com###main.ytd-mealbar-promo-renderer.style-scope:has(.ytd-mealbar-p
 ! 2021-03-22 https://www.youtube.com
 www.youtube.com###icon > .yt-img-shadow.style-scope
 ! 2022-04-08 https://www.youtube.com endscreen breaks autoplay notwork https://www.reddit.com/r/uBlockOrigin/comments/tcswua/tip_noncosmetic_filters_to_remove_junk_from/
-!youtube.com##+js(json-prune,endscreen)
-!/endscreen.js$script,important,domain=youtube.com
 /endscreen.js$script,xhr,important,domain=youtube.com
-!/annotations_module.js$script,xhr,important,domain=youtube.com
 !https://www.reddit.com/r/uBlockOrigin/comments/145hz4p/filters_for_youtube_to_fix_the_3_videos_per_row/
 ! 2023-10-30 https://www.youtube.com embed pause-overlay
 www.youtube.com##.ytp-pause-overlay
@@ -140,24 +134,19 @@ $removeparam=index,domain=youtube.com|youtu.be
 ! 7/11/2562 https://www.037hdd.com 
 !www.037hdd.com##.filmborder:not(:has(.filmcontent))
 ! 20/5/2563 https://www.037hdmovie.com  movie-19.com kuyhd123.com hooq-movie.com 037hd-movies.com https://www.037-hddmovie.com/ 037hddmovie.com
-037hddmovie.com##div[id^="ads_"]
-037hddmovie.com##.leftC > .filmborder:has(:scope > div[style="text-align: left;"]:only-child > .separator:only-child > a[href][target="_blank"])
-037hddmovie.com##.leftC > .filmborder:has(:scope > div[style="text-align: center;"]:only-child > a[href][target="_blank"])
-037hddmovie.com##.bireklam
-037hddmovie.com###sidebar > div[class="widget_text sidebarborder"]
-037hddmovie.com##.leftC > #ads-single > .filmborder:has(div[style="text-align: center;"]:only-child > a[href][target="_blank"])
+037hddmovies.com##div[id^="ads_"]
+!037hddmovies.com##.leftC > .filmborder:has(:scope > div[style="text-align: left;"]:only-child > .separator:only-child > a[href][target="_blank"])
+!037hddmovies.com##.leftC > .filmborder:has(:scope > div[style="text-align: center;"]:only-child > a[href][target="_blank"])
+!037hddmovies.com##.bireklam
+!037hddmovies.com###sidebar > div[class="widget_text sidebarborder"]
+037hddmovies.com##.leftC > :is(#ads-single, #ads-index) > .filmborder:has(div[style="text-align: center;"]:only-child > a[href][target="_blank"])
+037hddmovies.com##.sidebarborder:has(div[style^="text-align: center;"])
+
 /wp-content/uploads/*.gif$domain=037hddmovie.com
 https://googles.video$domain=leoplayer1.com
 vdoad3.online/vdo/macau1.mp4$domain=leoplayer1.com
 /Banner/$domain=037hddmovie.com
-037hddmovie.com##.sidebarborder:has(div[style^="text-align: center;"])
 leoplayer7.com,master.streamhls.com##+js(set-constant, Object.prototype.ads, undefined)
-
-!123hd 123-hds.com
-!123hdtv.com,24playerhd.com##+js(rpnt, script, "autostart": "false" , "autostart": "true" )
-!123hdtv.com,24playerhd.com##+js(rpnt, script,Quality(1);,Quality(2);)
-!24playerhd.com,123-hds.com##+js(rpnt, script, /Quality\(1\);/, "Quality(2);")
-!24playerhd.com##+js(trusted-replace-node-text, script, /setCurrentQuality\(1\)/, "setCurrentQuality(2)")
 
 
 ! 21/5/2563 https://dunnung.com https://dodonung.com
@@ -172,9 +161,15 @@ pantip.com##.pt-snackbar--open.pt-snackbar
 !mawtoload.com###dl-btnwrap:style(visibility:visible !important)
 mawtoload.com##+js(trusted-click-element, .button)
 ! แก้ปุ่มเด้ง popup ปลอม
-mawtoload.com##+js(addEventListener-defuser, click)
-mawtoload.com##+js(rpnt, script, (!el), (true))
+!mawtoload.com##+js(addEventListener-defuser, click)
+mawtoload.com##+js(rpnt, script, (!el, (true)
 mawtoload.com##+js(rpnt, script, (t<=0), (true))
+
+
+!mawtoload.com/##+js(href-sanitizer, a[data-target-url], [data-target-url])
+!mawtoload.com/##+js(href-sanitizer, a, [data-target-url])
+!mawtoload.com##+js(href-sanitizer, a.wp-block-button__link[data-target-url], [data-target-url])
+!mawtoload.com##+js(href-sanitizer, a.wp-block-button__link[data-target-url], data-target-url)
 
 ! 2021-12-26 https://axeload.com
 axeload.com##+js(addEventListener-defuser)
@@ -187,26 +182,93 @@ axeload.com##+js(addEventListener-defuser)
 
 axeload.com##+js(trusted-click-element, div>.button)
 axeload.com##+js(trusted-click-element, .fi-btn-main)
-mukohphetra.com##+js(trusted-click-element, .smart-btn)
+!mukohphetra.com##+js(trusted-click-element, .smart-btn)
 axeload.com##+js(set, window.__btnActionInit__, true)
 mukohphetra.com##+js(rpnt, script,totalSeconds = 10, totalSeconds = 1)
-
 mukohphetra.com##+js(trusted-click-element, .sg-btn)
+
 
 ! 2022-02-03 https://colabtutorials.com https://axeload.com/
 !axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)
 
+
+
+
+! ปลดล็อก CSS ให้ปุ่มตรงแสดงผลและกดได้ทันทีตั้งแต่วินาทีแรก
+!mukohphetra.com###final-dl-btn, #final-dl-btn-direct, #s-next-btn:style(pointer-events: auto !important; display: inline-flex !important; opacity: 1 !important;)
+!mukohphetra.com###progress-wrapper-box, #cf-box, #btn-progress-fill:style(display: none !important;)
+
+! สั่งสกัดและหยุดการทำงานของไฟล์สคริปต์ gateway ทันทีที่มันเริ่มทำงาน
+!mukohphetra.com##+js(abort-current-script, SmartGateConfig)
+
+!mukohphetra.com##+js(prevent-window-open, femalesfellowship.com)
+
+
+
+! 1. บังคับเปลี่ยนพฤติกรรมของปุ่มโดยตรง: เมื่อสคริปต์มาดักอ่านค่าคุณลักษณะ (Attribute) 
+! ของปุ่มเพื่อเช็คเงื่อนไข ให้เบราว์เซอร์ส่งค่า "ready" กลับไปให้สคริปต์เสมอ
+!mukohphetra.com##+js(trusted-override-element-method, Element, getAttribute, smartGateBypass)
+
+! 2. สั่งเซ็ตตัวแปรบอกเวลาฝั่ง Global ให้สคริปต์คิดว่าระบบเริ่มนับเวลาไปแล้ว
+!mukohphetra.com##+js(set, window.smartTimerStarted, true)
+
+! 3. ใช้ rpnt แก้ข้อความปุ่มที่ค้างมาจากแคชของเซิร์ฟเวอร์ ให้กลับเป็นข้อความปุ่มจริง
+!mukohphetra.com##+js(trusted-rpnt, ยืนยันการคลิก, ดาวน์โหลดไฟล์)
+
+! 4. ใช้ CSS บังคับเปิดตาปุ่มตรง และลบคราบ Class สีแดงที่ค้างมาจากแคช เพื่อให้กดใช้งานได้ทันที
+mukohphetra.com###final-dl-btn, #final-dl-btn-direct, #s-next-btn:style(pointer-events: auto !important; display: inline-flex !important; opacity: 1 !important;)
+!mukohphetra.com###progress-wrapper-box, #cf-box, #btn-progress-fill:style(display: none !important;)
+!mukohphetra.com##.sg-btn:remove-class(btn-verify-active)
+
+
+
+! 1. สวมรอยฟังก์ชันนับถอยหลังดั้งเดิม เพื่อบีบให้ตัวเลขนับเสร็จสิ้นทันทีใน 0 วินาที ! ประกาศตัวแปรซ้ำก่อนโหลด
+!mukohphetra.com##+js(set, runStep1Countdown, text: function(){ const w=document.getElementById("progress-wrapper-box"); if(w)w.style.display="none"; const s=document.getElementById("scroll-msg"); if(s)s.style.display="flex"; const n=document.getElementById("s-next-btn"); if(n)n.style.display="inline-flex"; })
+!mukohphetra.com##+js(set, runStep2ButtonTimer, text: function(){ const b=document.getElementById("final-dl-btn"); if(b){ b.style.pointerEvents="auto"; const f=document.getElementById("btn-progress-fill"); if(f)f.style.opacity="0"; const t=document.getElementById("btn-text"); if(t)t.innerHTML="ดาวน์โหลดไฟล์"; const d=document.getElementById("final-dl-btn-direct"); if(d){ d.style.display="inline-flex"; d.style.pointerEvents="auto"; } } })
+! 2. บังคับให้ปุ่มข้ามขั้นตอน "ยืนยันการคลิก" (ตั้งสถานะเป็น ready รอไว้ก่อนโดนคลิก) ! ประกาศตัวแปรซ้ำก่อนโหลด
+!mukohphetra.com##+js(set, initDynamicVerifyButton, text: function(){ document.querySelectorAll(".fi-btn-main, .sg-btn").forEach(b => b.dataset.stepStatus = "ready"); })
+! 3. บายพาสระบบตรวจจับ Adblock เพื่อไม่ให้แสดงหน้าต่างเตือนสีแดง ! ประกาศตัวแปรซ้ำก่อนโหลด
+!mukohphetra.com##+js(set, detectAdBlocker, text: function(){ return new Promise(r => r(false)); })
+! 4. สกัดกั้นหน้าต่างโฆษณาแฝงเผื่อกรณีฉุกเฉิน
+!||femalesfellowship.com^$popup,domain=mukohphetra.com
+
+!ข้ามคลิกอีกครั้งสำเร็จ ประกาศตัวแปรซ้ำก่อนโหลด
+!mukohphetra.com##+js(set, detectAdBlocker, text: function(){ const interval = setInterval(() => { const btn = document.getElementById('final-dl-btn'); const btnText = document.getElementById('btn-text'); const btnDirect = document.getElementById('final-dl-btn-direct'); if (btn) { btn.style.pointerEvents = 'auto'; if (btnText && !btnText.innerHTML.includes('ดาวน์โหลด')) { btnText.innerHTML = 'ดาวน์โหลดไฟล์ (พร้อมแล้ว)'; } if (btnDirect) { btnDirect.style.display = 'inline-flex'; btnDirect.style.pointerEvents = 'auto'; } clearInterval(interval); } }, 100); setTimeout(() => clearInterval(interval), 10000); return new Promise(r => r(false)); })
+
+! ประกาศตัวแปรซ้ำก่อนโหลด
+!mukohphetra.com##+js(set, detectAdBlocker, text: function(){ const interval = setInterval(() => { const btn = document.getElementById('final-dl-btn'); const btnText = document.getElementById('btn-text'); const btnDirect = document.getElementById('final-dl-btn-direct'); const progressFill = document.getElementById('btn-progress-fill'); if (btn) { btn.style.pointerEvents = 'auto'; if (progressFill) { progressFill.style.width = '100%'; progressFill.style.opacity = '0'; } if (btnText && btnText.textContent.includes('กำลังเตรียมไฟล์')) { btnText.innerHTML = 'ดาวน์โหลดไฟล์ (พร้อมแล้ว)'; } if (btnDirect) { btnDirect.style.display = 'inline-flex'; btnDirect.style.pointerEvents = 'auto'; } } }, 50); setTimeout(() => clearInterval(interval), 8000); return new Promise(r => r(false)); })
+
+
+! 1. หลอกว่าไม่ได้เปิด Adblock (ทางผ่านหลักเหมือนเดิม) ประกาศตัวแปรซ้ำก่อนโหลด
+!mukohphetra.com##+js(set, detectAdBlocker, text: function(){ return new Promise(r => r(false)); })
+! 2. หักดิบด้วย CSS: บังคับให้ปุ่มคลิกได้ และบังคับโชว์ปุ่มดาวน์โหลดตรงทันที โดยสคริปต์เว็บไม่มีสิทธิ์ล็อก
+!mukohphetra.com###final-dl-btn-direct:style(display: inline-flex !important; pointer-events: auto !important;)
+! 3. ดักจับการคลิกชั้นนอกสุด: แอบยัดสถานะ ready ให้ปุ่มในเสี้ยววินาทีที่นิ้วแตะโดน ก่อนที่สคริปต์เว็บจะรู้ตัว ประกาศตัวแปรซ้ำก่อนโหลด
+!mukohphetra.com##+js(set, initDynamicVerifyButton, text: function(){ document.addEventListener('click', (e) => { const btn = e.target.closest('#final-dl-btn'); if (btn) { btn.dataset.stepStatus = 'ready'; } }, true); })
+! ประกาศตัวแปรซ้ำก่อนโหลด
+!mukohphetra.com##+js(set, detectAdBlocker, true)
+
+
+mukohphetra.com##+js(set, window.smartTimerStarted, true)
+
+
+
+
 ! 9 ม.ค. 2569 https://karanpc.com
-karanpc.com##+js(trusted-click-element, .litespeed-loaded.entered.save-button-image)
-karanpc.com##+js(rpnt, script, var isReady = false; , var isReady = true;)
+karanpc.com##+js(trusted-click-element, .sl-nav-trigger:nth-of-type(2),,500)
+inloadapi.com##+js(trusted-click-element, .active.gen-btn)
+inloadapi.com##+js(trusted-click-element, .download-btn,,500)
+!inloadapi.com##+js(rpnt, script, var isReady = false; , var isReady = true;)
+inloadapi.com##+js(rpnt, script, (isPageRefreshed) , (false))
+inloadapi.com##+js(nano-setInterval-booster.js, , ,0.01)
 
 ! 21 ธ.ค. 2567 https://vk.com
-vk.com,vk.ru##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__bannerAnimated--rzpRh.vkitFooterBanner__banner--JBGVC
+vk.com,vk.ru##.vkitFooterBanner__banner--JBGVC
 vk.com,vk.ru##.chat_hide_button_enabled.videoplayer_action_button
 vk.com,vk.ru###page_bottom_banners_root:style(display: none !important;)
 vk.com,vk.ru##.PageBottomBanner--unauth
-vk.ru##.vkitFooterBanner__bannerAppearanceAzure--PswWv.vkitFooterBanner__bannerAnimated--rzpRh.vkitFooterBanner__banner--JBGVC
 vk.ru##.PageBottomBanner--bg-blue.PageBottomBanner--animated.PageBottomBanner--unauth.PageBottomBanner
+
 
 !https://www.doolunla.com/ พัง
 playerlunla.com##+js(abort-current-inline-script, $, check_av)
@@ -258,7 +320,7 @@ movie-th.com#$##moviePlayer { display: none!important; }
 movie-th.com#$##videoWrapper { display: block!important; }
 
 !thaiadsblocklist
-||*.gif$image,domain=037-anime.com|430hdd.com|1112hds.com|037-anime.com|animekumo.com|animefuka.com|animeslime.com|hitseries.co|doomovie-free.com|doomovie.vip|madoohd.com|animeriku.com|fwiptv.tv|ดูหนังออนไลน์2022.com|movie-th.tv|169moviehd.com|doonung982.com|ดูหนัง24.com|love-series.net|9nunghd.com|animelizm.com|cinemas1.com|037movie4k.com|999flix.com|kaba-anime.com|gg-anime.com|govmovie.org|doofree365.com|ดูหนังฟรี24.com|fairyani.me|series2day.com|goseries4k.com|series-play.com|series-108.com|movie2free.tv|doomovie-th.com|moviehdfree.net|movie2film.com|movie2here.com|neko-miku.com|animeindy.com|www.movie678.com|all-movie.tv|inw-iptv.com|anime-kawaii.com|nungfree.tv|anime-suba.com|animelucky.com|cats-translator.com|อนิเมะสนุก.com|overserieshd.com|doomovie.online|678moviehd.com|ok-anime.com|anime-teri.com|anime-kuro.com|animeseesan.com|fairyanime.com|anime-d.com|do-anime.com|animelolo.com|123-hd.com|animerem.com|anime-sugoi.com|037hdd.com|akaanime.com|baan-series.com|doonungdee.online|doonungonline.com|dufree4k.com|imovie-hd.com|movie1free.com|movie2fin.com|movie2thai.com|movie2uhd.com|movie356hd.com|series-nanime.com|thmovieshd.com|tvseriesclub.com|ufa365movie.com|xn--72czp5e5a8b.online,3p
+||*.gif$image,domain=1112hds.com|037-anime.com|hitseries.co|9nunghd.com|animelizm.com|cinemas1.com|gg-anime.com|series2day.com|goseries4k.com|series-play.com|series-108.com|movie2free.tv|moviehdfree.net|movie2film.com|movie2here.com|neko-miku.com|animeindy.com|www.movie678.com|all-movie.tv|inw-iptv.com|anime-kawaii.com|nungfree.tv|anime-suba.com|animelucky.com|cats-translator.com|อนิเมะสนุก.com|overserieshd.com|doomovie.online|678moviehd.com|ok-anime.com|anime-teri.com|anime-kuro.com|animeseesan.com|fairyanime.com|anime-d.com|do-anime.com|animelolo.com|123-hd.com|animerem.com|anime-sugoi.com|037hdd.com|akaanime.com|baan-series.com|doonungdee.online|doonungonline.com|dufree4k.com|imovie-hd.com|movie1free.com|movie2fin.com|movie2thai.com|movie2uhd.com|movie356hd.com|series-nanime.com|thmovieshd.com|tvseriesclub.com|ufa365movie.com|xn--72czp5e5a8b.online,3p
 
 !5play.ru##+js(nano-sib)
 5play.ru,lenov.ru##+js(nano-sib, , ,0.001)
@@ -295,7 +357,7 @@ animehdzeroo.com##.close-ads
 ||www.lunggildarts-anime.com/wp-content/uploads/2020/04/Game1688-side-Re2.jpg$image
 
 ! 3/10/2563 https://www.mio-anime.com to https://www.mio-anime.net
-www.mio-anime.net##.img-responsive
+mioanime.net##.img-responsive
 !##[style^="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;"]
 
 ! 5/7/2563 axilesoft.com
@@ -309,7 +371,7 @@ www.techtalkthai.com##.background-cover
 
 ! 14/8/2563 https://blockadblock.com
 !@@||nonnoifree.com^$generichide
-nonnoifree.com,gg-th.com,blockadblock.com,mini1up.com##+js(nobab)
+nonnoifree.com,gg-th.com,blockadblock.com##+js(nobab)
 
 ! 6/9/2563 https://wetv.vip
 wetv.vip##[data-role^="wetv-player-fullscreen-mask"]
@@ -353,7 +415,7 @@ facebook.com##+js(trusted-click-element, div[aria-label="ปิด"][role="butto
 !facebook.com#$#[class*="rq0escxv l9j0dhe7 du4w35lb"] { remove: true; }
 
 ! 2020-12-26 https://www.678moviehd.com ! 2021-01-21 https://www.fw2uhd.com cherry1688.com ! 2021-01-21 https://www.v8movie.com https://www.nung222hd.com/ https://movie8m.co/ https://www.dooseries4k.com https://www.9nunghd.com/ https://www.xn--72czpba5eubsa1bzfzgoe.com/ https://fm2play.com/ https://www.v8movie-hd.com/ https://www.678movie-hd.com/ https://www.v8-hd.com/ https://www.movies-d.com/ https://www.9nung.com
-@@||googles.video/$media,redirect=noopmp3-0.1s,domain=steamseries88.com|mojianime.com|wow-drama.com|stream1689.com|www.v8-hdd.com|v8hdmovie.com
+@@||googles.video/$media,redirect=noopmp3-0.1s,domain=steamseries88.com|mojianime.com|wow-drama.com|stream1689.com|v8hdmovie.com|leoplayer7.com
 @@||cdend.com^$media,redirect=noopmp3-0.1s,domain=steamseries88.com
 ||$media,domain=steamseries88.com|stream1689.com|ezycdn.com,3p
 ! 21 ต.ค. 2568 https://www.9nung.com
@@ -409,8 +471,8 @@ anime-hit.com##a.img-responsive
 anime-hit.com###adsR.m-0.row
 anime-hit.com##div.watch-bnn
 
-! 2023-07-04 https://animeriku.com animefuka.com animekumo.com animeloki.com/ 
-animeriku.com,animeloki.com##.banner-wrapper
+! 2023-07-04 https://animeriku.com animefuka.com animekumo.com animeloki.com/ anime-loki.com
+anime-loki.com##.banner-wrapper
 
 ! 2021-03-03 https://ok.ru logo ซ้ายบน
 ok.ru##.html5-vpl_logo
@@ -434,9 +496,10 @@ ezmovie.me##.my-3.container
 ezmovie.me##.-in-header.x-sponsor
 ezmovie.me##.-banner-item>.img-fluid.-banner-item-img
 
-! 2023-09-10 https://anime-honeys.com https://anime-mojii.com https://mojianime.com https://tidanime.com https://anime-my.com/ mojianime.com https://animemoji.tv/ anime-good.com https://animemeiji.com/
-animemeiji.com###page > .m-0.row
-animemeiji.com##.watch-bnn
+! 2023-09-10 https://anime-honeys.com https://anime-mojii.com https://mojianime.com https://tidanime.com https://anime-my.com/ mojianime.com https://animemoji.tv/ anime-good.com https://animemeiji.com/ https://anime57.com/
+anime57.com###page > .m-0.row
+anime57.com##.watch-bnn
+anime57.com##.ads_bottom
 moji.team-indy.net###overlay
 !animemeiji.com,moji.team-indy.net##+js(trusted-click-element, .sl-honey-2.sl-src.toolbar-item-content , , 500)
 
@@ -475,6 +538,7 @@ goseries4k.com##.vipx-grid
 
 ! 13 พ.ย. 2568 https://www.up-manga.com
 up-manga.com## .sticky-close
+up-manga.com##div.center_upmanga
 
 ! 1 ธ.ค. 2568 https://037-anime.com
 037-anime.com##.vipx--l-static.vipx--g-b.vipx-grid > div.vipx-item > .vipx-img
@@ -493,7 +557,7 @@ www.xn--l3c0azab5a2gta.com##.ads
 ! 26 มี.ค. 2569 https://www.n-jav.com
 njavtv.com,n-jav.com,missav.live##+js(addEventListener-defuser, visibilitychange)
 njavtv.com,n-jav.com,missav.live##+js(addEventListener-defuser, blur)
-n-jav.com,ibucket.org,ukdevilz.com##+js(set-constant, document.hidden, false)
+n-jav.com,ibucket.org,ukdevilz.com,mawtoload.com##+js(set-constant, document.hidden, false)
 
 ! 1. สั่งให้วิดีโอในฟังก์ชัน vroll กลายเป็นค่าว่าง (Empty Array)
 !moji.team-indy.net##+js(trusted-replace-node-text, script, /player\.vroll\(\[[\s\S]*?\]\)/, player.vroll([]))
@@ -506,12 +570,14 @@ flixmono.com##span.episode:nth-of-type(-n+38)
 ! 7 เม.ย. 2569 https://www.animewaku.com
 !www.animewaku.com##article.item:not(:has-text(จบแล้ว))
 
-! 13 เม.ย. 2569 https://www.up-manga.com
-www.up-manga.com##div.center_upmanga
-
 ! 23 เม.ย. 2569 https://www.nexusmods.com
 www.nexusmods.com##.CybotCookiebotDialogActive.CybotMultilevel.CybotEdge
 
-www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button
+! 25 มิ.ย. 2569 https://ww2.xn--42c5ab1a9aq9hqb5dud.to
+ww2.xn--42c5ab1a9aq9hqb5dud.to##.player-overlay-box
 
+! 27 มิ.ย. 2569 https://1112hdss.com
+1112hdss.com##div.bg-\[var\(--color-background\)\].p-4.max-lg\:px-2.mx-auto.max-w-8xl:nth-of-type(1)
+1112hdss.com##.vipx--l-static.vipx--g-c.vipx-grid
+1112hdss.com##.vipx--l-absolute.vipx--g-e.vipx-grid > .vipx-item--floating.vipx-item
 

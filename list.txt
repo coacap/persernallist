@@ -165,7 +165,6 @@ mawtoload.com##+js(trusted-click-element, .button)
 mawtoload.com##+js(rpnt, script, (!el, (true)
 mawtoload.com##+js(rpnt, script, (t<=0), (true))
 
-
 !mawtoload.com/##+js(href-sanitizer, a[data-target-url], [data-target-url])
 !mawtoload.com/##+js(href-sanitizer, a, [data-target-url])
 !mawtoload.com##+js(href-sanitizer, a.wp-block-button__link[data-target-url], [data-target-url])
@@ -184,75 +183,16 @@ axeload.com##+js(trusted-click-element, div>.button)
 axeload.com##+js(trusted-click-element, .fi-btn-main)
 !mukohphetra.com##+js(trusted-click-element, .smart-btn)
 axeload.com##+js(set, window.__btnActionInit__, true)
-mukohphetra.com##+js(rpnt, script,totalSeconds = 10, totalSeconds = 1)
+!mukohphetra.com##+js(rpnt, script,totalSeconds = 10, totalSeconds = 1)
 mukohphetra.com##+js(trusted-click-element, .sg-btn)
-
 
 ! 2022-02-03 https://colabtutorials.com https://axeload.com/
 !axetutorials.com,colabtutorials.com,mukohphetra.com###wpsafe-link:style(display: inline !important; visibility: visible !important;)
 
-
-
-
-! ปลดล็อก CSS ให้ปุ่มตรงแสดงผลและกดได้ทันทีตั้งแต่วินาทีแรก
-!mukohphetra.com###final-dl-btn, #final-dl-btn-direct, #s-next-btn:style(pointer-events: auto !important; display: inline-flex !important; opacity: 1 !important;)
-!mukohphetra.com###progress-wrapper-box, #cf-box, #btn-progress-fill:style(display: none !important;)
-
-! สั่งสกัดและหยุดการทำงานของไฟล์สคริปต์ gateway ทันทีที่มันเริ่มทำงาน
-!mukohphetra.com##+js(abort-current-script, SmartGateConfig)
-
-!mukohphetra.com##+js(prevent-window-open, femalesfellowship.com)
-
-
-
-! 1. บังคับเปลี่ยนพฤติกรรมของปุ่มโดยตรง: เมื่อสคริปต์มาดักอ่านค่าคุณลักษณะ (Attribute) 
-! ของปุ่มเพื่อเช็คเงื่อนไข ให้เบราว์เซอร์ส่งค่า "ready" กลับไปให้สคริปต์เสมอ
-!mukohphetra.com##+js(trusted-override-element-method, Element, getAttribute, smartGateBypass)
-
-! 2. สั่งเซ็ตตัวแปรบอกเวลาฝั่ง Global ให้สคริปต์คิดว่าระบบเริ่มนับเวลาไปแล้ว
-!mukohphetra.com##+js(set, window.smartTimerStarted, true)
-
-! 3. ใช้ rpnt แก้ข้อความปุ่มที่ค้างมาจากแคชของเซิร์ฟเวอร์ ให้กลับเป็นข้อความปุ่มจริง
-!mukohphetra.com##+js(trusted-rpnt, ยืนยันการคลิก, ดาวน์โหลดไฟล์)
-
 ! 4. ใช้ CSS บังคับเปิดตาปุ่มตรง และลบคราบ Class สีแดงที่ค้างมาจากแคช เพื่อให้กดใช้งานได้ทันที
 mukohphetra.com###final-dl-btn, #final-dl-btn-direct, #s-next-btn:style(pointer-events: auto !important; display: inline-flex !important; opacity: 1 !important;)
-!mukohphetra.com###progress-wrapper-box, #cf-box, #btn-progress-fill:style(display: none !important;)
-!mukohphetra.com##.sg-btn:remove-class(btn-verify-active)
-
-
-
-! 1. สวมรอยฟังก์ชันนับถอยหลังดั้งเดิม เพื่อบีบให้ตัวเลขนับเสร็จสิ้นทันทีใน 0 วินาที ! ประกาศตัวแปรซ้ำก่อนโหลด
-!mukohphetra.com##+js(set, runStep1Countdown, text: function(){ const w=document.getElementById("progress-wrapper-box"); if(w)w.style.display="none"; const s=document.getElementById("scroll-msg"); if(s)s.style.display="flex"; const n=document.getElementById("s-next-btn"); if(n)n.style.display="inline-flex"; })
-!mukohphetra.com##+js(set, runStep2ButtonTimer, text: function(){ const b=document.getElementById("final-dl-btn"); if(b){ b.style.pointerEvents="auto"; const f=document.getElementById("btn-progress-fill"); if(f)f.style.opacity="0"; const t=document.getElementById("btn-text"); if(t)t.innerHTML="ดาวน์โหลดไฟล์"; const d=document.getElementById("final-dl-btn-direct"); if(d){ d.style.display="inline-flex"; d.style.pointerEvents="auto"; } } })
-! 2. บังคับให้ปุ่มข้ามขั้นตอน "ยืนยันการคลิก" (ตั้งสถานะเป็น ready รอไว้ก่อนโดนคลิก) ! ประกาศตัวแปรซ้ำก่อนโหลด
-!mukohphetra.com##+js(set, initDynamicVerifyButton, text: function(){ document.querySelectorAll(".fi-btn-main, .sg-btn").forEach(b => b.dataset.stepStatus = "ready"); })
-! 3. บายพาสระบบตรวจจับ Adblock เพื่อไม่ให้แสดงหน้าต่างเตือนสีแดง ! ประกาศตัวแปรซ้ำก่อนโหลด
-!mukohphetra.com##+js(set, detectAdBlocker, text: function(){ return new Promise(r => r(false)); })
-! 4. สกัดกั้นหน้าต่างโฆษณาแฝงเผื่อกรณีฉุกเฉิน
-!||femalesfellowship.com^$popup,domain=mukohphetra.com
-
-!ข้ามคลิกอีกครั้งสำเร็จ ประกาศตัวแปรซ้ำก่อนโหลด
-!mukohphetra.com##+js(set, detectAdBlocker, text: function(){ const interval = setInterval(() => { const btn = document.getElementById('final-dl-btn'); const btnText = document.getElementById('btn-text'); const btnDirect = document.getElementById('final-dl-btn-direct'); if (btn) { btn.style.pointerEvents = 'auto'; if (btnText && !btnText.innerHTML.includes('ดาวน์โหลด')) { btnText.innerHTML = 'ดาวน์โหลดไฟล์ (พร้อมแล้ว)'; } if (btnDirect) { btnDirect.style.display = 'inline-flex'; btnDirect.style.pointerEvents = 'auto'; } clearInterval(interval); } }, 100); setTimeout(() => clearInterval(interval), 10000); return new Promise(r => r(false)); })
-
-! ประกาศตัวแปรซ้ำก่อนโหลด
-!mukohphetra.com##+js(set, detectAdBlocker, text: function(){ const interval = setInterval(() => { const btn = document.getElementById('final-dl-btn'); const btnText = document.getElementById('btn-text'); const btnDirect = document.getElementById('final-dl-btn-direct'); const progressFill = document.getElementById('btn-progress-fill'); if (btn) { btn.style.pointerEvents = 'auto'; if (progressFill) { progressFill.style.width = '100%'; progressFill.style.opacity = '0'; } if (btnText && btnText.textContent.includes('กำลังเตรียมไฟล์')) { btnText.innerHTML = 'ดาวน์โหลดไฟล์ (พร้อมแล้ว)'; } if (btnDirect) { btnDirect.style.display = 'inline-flex'; btnDirect.style.pointerEvents = 'auto'; } } }, 50); setTimeout(() => clearInterval(interval), 8000); return new Promise(r => r(false)); })
-
-
-! 1. หลอกว่าไม่ได้เปิด Adblock (ทางผ่านหลักเหมือนเดิม) ประกาศตัวแปรซ้ำก่อนโหลด
-!mukohphetra.com##+js(set, detectAdBlocker, text: function(){ return new Promise(r => r(false)); })
-! 2. หักดิบด้วย CSS: บังคับให้ปุ่มคลิกได้ และบังคับโชว์ปุ่มดาวน์โหลดตรงทันที โดยสคริปต์เว็บไม่มีสิทธิ์ล็อก
-!mukohphetra.com###final-dl-btn-direct:style(display: inline-flex !important; pointer-events: auto !important;)
-! 3. ดักจับการคลิกชั้นนอกสุด: แอบยัดสถานะ ready ให้ปุ่มในเสี้ยววินาทีที่นิ้วแตะโดน ก่อนที่สคริปต์เว็บจะรู้ตัว ประกาศตัวแปรซ้ำก่อนโหลด
-!mukohphetra.com##+js(set, initDynamicVerifyButton, text: function(){ document.addEventListener('click', (e) => { const btn = e.target.closest('#final-dl-btn'); if (btn) { btn.dataset.stepStatus = 'ready'; } }, true); })
-! ประกาศตัวแปรซ้ำก่อนโหลด
-!mukohphetra.com##+js(set, detectAdBlocker, true)
-
-
-mukohphetra.com##+js(set, window.smartTimerStarted, true)
-
-
-
+mukohphetra.com##+js(set, detectAdBlocker, true)
+mukohphetra.com##+js(prevent-window-open, femalesfellowship.com)
 
 ! 9 ม.ค. 2569 https://karanpc.com
 karanpc.com##+js(trusted-click-element, .sl-nav-trigger:nth-of-type(2),,500)

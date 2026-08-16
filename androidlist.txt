@@ -59,3 +59,4 @@ www.anime108.com##.adcen2
 www.anime108.com##.right-menu > .adlf
 www.anime108.com##.adc
 www.anime108.com##.mcommanr
+www.anime108.com##.ad

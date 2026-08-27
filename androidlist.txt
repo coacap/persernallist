@@ -40,13 +40,13 @@ anime57.com##.ads_bottom
 moji.team-indy.net###overlay
 ||cdend.com^
 ||googles.video^
-animewaku.com###animekimiads1
-animewaku.com###animekimiads2
-animewaku.com###animekimiads3
-animewaku.com###animekimiads4
-animewaku.com###animekimiads5
-animewaku.com##.code-block
-animewaku.com##.lazy.animekimi-banner
+anime-waku.com###animekimiads1
+anime-waku.com###animekimiads2
+anime-waku.com###animekimiads3
+anime-waku.com###animekimiads4
+anime-waku.com###animekimiads5
+anime-waku.com##.code-block
+anime-waku.com##.lazy.animekimi-banner
 24-hdx.com##.content > .ad
 indy-anime.net##.position-relative.w-100.site
 indy-anime.net##.d-flex.watch-bnn

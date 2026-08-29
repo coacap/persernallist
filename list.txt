@@ -57,6 +57,8 @@ onedrive.live.com##.headerContainer_42cc2ced
 ! 2021-11-07 https://xn--24-3qi3cza1b2a4dxc2byb.com
 !||van1.mvx-master4.work^$media,redirect=noop-0.1s.mp3
 
+videos.cdnstorage-1.top^$media,redirect=noop-0.1s.mp3
+
 !https://postto.me/1y/8b4.png
 ! 2021-03-27 https://www.youtube.com
 !www.youtube.com##.ytp-ce-element
@@ -365,8 +367,8 @@ facebook.com##+js(trusted-click-element, div[aria-label="ปิด"][role="butto
 @@||cdend.com^$media,redirect=noopmp3-0.1s,domain=steamseries88.com
 ||$media,domain=steamseries88.com|stream1689.com|ezycdn.com,3p
 ! 21 ต.ค. 2568 https://www.9nung.com
-www.9nung.com##center
-v8hdmovie.com##div.page_margin_top.row-kodsana
+9nung.com##center
+v8-hdmovie.com##div.page_margin_top.row-kodsana
 
 ! 2021-01-18 https://thaiware2.speedtestcustom.com
 thaiware.com###pdpa_notice
@@ -500,8 +502,8 @@ www.mangakimi.com##.header-ads-section
 www.xn--l3c0azab5a2gta.com##.ads
 
 ! 26 มี.ค. 2569 https://www.n-jav.com
-njavtv.com,n-jav.com,missav.live##+js(addEventListener-defuser, visibilitychange)
-njavtv.com,n-jav.com,missav.live##+js(addEventListener-defuser, blur)
+njavtv.com,n-jav.com,missav.live,missav123.com##+js(addEventListener-defuser, visibilitychange)
+njavtv.com,n-jav.com,missav.live,missav123.com##+js(addEventListener-defuser, blur)
 n-jav.com,ibucket.org,ukdevilz.com,mawtoload.com##+js(set-constant, document.hidden, false)
 
 ! 1. สั่งให้วิดีโอในฟังก์ชัน vroll กลายเป็นค่าว่าง (Empty Array)
@@ -537,4 +539,30 @@ rutor.info##+js(setInterval-defuser, _country)
 
 ! 14 ส.ค. 2569 https://gemini.google.com
 gemini.google.com##sign-in-nudge.ng-star-inserted
+
+! 15 ส.ค. 2569 https://xn--82cxp5brvqd2dzgc1m.com
+ดิอเวนเจอร์ส.com##.only-cen
+ดิอเวนเจอร์ส.com##.bcm-ads
+
+! 17 ส.ค. 2569 https://www.anime108.com
+www.anime108.com##.adcen2
+www.anime108.com##.right-menu > .adlf
+www.anime108.com##.adc
+www.anime108.com##.mcommanr
+www.anime108.com##.ad
+
+! 17 ส.ค. 2569 https://animeruka.com
+animeruka.com## div > div > [href="javascript:void(0);"]
+
+! 19 ส.ค. 2569 https://counter-pressing.com
+counter-pressing.com##.\[contain\:layout\].items-center.flex-col.w-full.flex.my-6
+
+! 20 ส.ค. 2569 https://chatgpt.com
+chatgpt.com##.wm-app-recurringLoginBanner
+
+! 24 ส.ค. 2569 https://www.bilibili.tv
+www.bilibili.tv##.ip-watermark
+
+! 27 ส.ค. 2569 https://www.gta5-mods.com
+www.gta5-mods.com###main-nav > .container
 

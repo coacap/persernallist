@@ -34,9 +34,9 @@ seriedays.com##.ad
 seriedays.com##.adl
 seriedays.com##.adhl
 seriedays.com##.adb
-anime57.com###page > .m-0.row
-anime57.com##.watch-bnn
-anime57.com##.ads_bottom
+animemaji.com###page > .m-0.row
+animemaji.com##.watch-bnn
+animemaji.com##.ads_bottom
 moji.team-indy.net###overlay
 ||cdend.com^
 ||googles.video^

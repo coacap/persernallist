@@ -512,7 +512,6 @@ n-jav.com,ibucket.org,ukdevilz.com,mawtoload.com##+js(set-constant, document.hid
 ! 1 เม.ย. 2569 https://flixmono.com https://flixmono2.com
 flixmono2.com##.vipx-item--floating.vipx-item
 flixmono2.com##.vipx--l-static.vipx--g-c.vipx-grid
-!flixmono2.com##span.episode:nth-of-type(-n+38)
 flixmono2.com##div.vipx-item > .vipx-img
 flixmono2.com##.jw-reset.jwplayer
 
@@ -526,15 +525,7 @@ www.nexusmods.com##.py-2\.5.px-3.bg-premium-weak.gap-3.justify-between.flex.rela
 ! 25 มิ.ย. 2569 https://ww2.xn--42c5ab1a9aq9hqb5dud.to
 ww2.xn--42c5ab1a9aq9hqb5dud.to##.player-overlay-box
 
-! 27 มิ.ย. 2569 https://1112hdss.com
-1112hdss.com##div.bg-\[var\(--color-background\)\].p-4.max-lg\:px-2.mx-auto.max-w-8xl:nth-of-type(1)
-1112hdss.com##.vipx--l-static.vipx--g-c.vipx-grid
-1112hdss.com##.vipx--l-absolute.vipx--g-e.vipx-grid > .vipx-item--floating.vipx-item
-
 ! 10 ก.ค. 2569 https://rutor.info
-!rutor.info##+js(prevent-window-open, about:blank)
-!rutor.info##+js(set, ec592524fc_country, undefined)
-!rutor.info##+js(set, Document.prototype.createElement, undefined)
 rutor.info##+js(setInterval-defuser, _country)
 
 ! 14 ส.ค. 2569 https://gemini.google.com
@@ -544,25 +535,10 @@ gemini.google.com##sign-in-nudge.ng-star-inserted
 ดิอเวนเจอร์ส.com##.only-cen
 ดิอเวนเจอร์ส.com##.bcm-ads
 
-! 17 ส.ค. 2569 https://www.anime108.com
-www.anime108.com##.adcen2
-www.anime108.com##.right-menu > .adlf
-www.anime108.com##.adc
-www.anime108.com##.mcommanr
-www.anime108.com##.ad
-
-! 17 ส.ค. 2569 https://animeruka.com
-animeruka.com## div > div > [href="javascript:void(0);"]
-
 ! 19 ส.ค. 2569 https://counter-pressing.com
 counter-pressing.com##.\[contain\:layout\].items-center.flex-col.w-full.flex.my-6
 
 ! 20 ส.ค. 2569 https://chatgpt.com
 chatgpt.com##.wm-app-recurringLoginBanner
-
-! 24 ส.ค. 2569 https://www.bilibili.tv
-www.bilibili.tv##.ip-watermark
-
-! 27 ส.ค. 2569 https://www.gta5-mods.com
-www.gta5-mods.com###main-nav > .container
+chatgpt.com##[class*="_cookieOverlay"]
 

@@ -60,3 +60,5 @@ www.anime108.com##.right-menu > .adlf
 www.anime108.com##.adc
 www.anime108.com##.mcommanr
 www.anime108.com##.ad
+up-manga.com##div.center_upmanga
+up-manga.com##.sticky-close

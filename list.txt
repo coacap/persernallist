@@ -30,12 +30,10 @@ instagram.com##div[data-visualcompletion=ignore] + div[class*=" "]
 
 ! 10/1/2562 01:39:15 https://www.soccersuck.com/boards/topic/
 soccersuck.com##div.adv_A:remove()
-! 8/11/2562 https://www.soccersuck.com
 ||www.soccersuck.com/img/web/cate/18.png$image
 soccersuck.com#@#a[rel*="ofollow"] > img[src*="gif"]
 soccersuck.com#@#[rel^="nofollow"]
 soccersuck.com#@#a[rel*="nofollow"] > img[src*="webp"]
-!www.soccersuck.com##div#container > div.adv_a
 
 ! 2022-11-04 https://www.reddit.com/r/uBlockOrigin/comments/ykm4xa/how_can_i_block_these_ads_on_outlookcom/ For the Ad in Inbox, can you check  !For the bottom part, maybe this? !Maybe restrict it a bit if you think it might cause false positives
 outlook.live.com##div.full:has(div:not([class]) .fbAdLink)
@@ -305,10 +303,6 @@ animehdzeroo.com##.container > div.row > .col-lg-3 >a
 animehdzeroo.com##.col-lg-12
 animehdzeroo.com##.close-ads
 
-! 8/7/2563 https://www.lunggildarts-anime.com
-||www.lunggildarts-anime.com/wp-content/uploads/*.gif$image
-||www.lunggildarts-anime.com/wp-content/uploads/2020/04/Game1688-side-Re2.jpg$image
-
 ! 3/10/2563 https://www.mio-anime.com to https://www.mio-anime.net
 mioanime.net##.img-responsive
 !##[style^="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;"]
@@ -377,7 +371,7 @@ thaiware.com###pdpa_notice
 anime-suba.com##div.LazyLoad.Anadvertisement
 anime-suba.com##+js(nano-sib)
 
-! 2021-09-05 https://animekimi.com www.anime-yuzu.com >>stream.animeorder.com www.animewaku.com
+! 2021-09-05 https://animekimi.com www.anime-yuzu.com >>stream.animeorder.com www.animewaku.com anime-waku.com
 
 !||animekimi.com/player/*$subdocument
 
@@ -402,8 +396,6 @@ playermeow.com,playhydrax.com##+js(nowoif, /^/, 1)
 
 @@||facebook.com/*/plugins/$from=~facebook.com
 #@#.fb-page
-!anime-yuzu.com##[id*="animekimiads"]
-!anime-yuzu.com##.lazy.animekimi-banner
 
 ! 2023-01-26 https://fairyanime.net
 fairyanime.net##.bounce.animated.kosana.concise
@@ -449,6 +441,8 @@ animemaji.com##.watch-bnn
 animemaji.com##.ads_bottom
 moji.team-indy.net###overlay
 !animemeiji.com,moji.team-indy.net##+js(trusted-click-element, .sl-honey-2.sl-src.toolbar-item-content , , 500)
+! 11 ก.ย. 2569 https://video.abcdxzy.xyz
+video.abcdxzy.xyz,indy.team-indy.net##.media-control-background
 
 !https://www.reddit.com/r/uBlockOrigin/comments/1bqbveh/ytube_annoyance_disable_channel_autoplay_video/?sort=old
 !||www.youtube.com/@*$uritransform=/(@[^\/]+)(?:\/featured)?$/\$1\/videos/
@@ -530,10 +524,9 @@ rutor.info##+js(setInterval-defuser, _country)
 
 ! 14 ส.ค. 2569 https://gemini.google.com
 gemini.google.com##sign-in-nudge.ng-star-inserted
-
-! 15 ส.ค. 2569 https://xn--82cxp5brvqd2dzgc1m.com
-ดิอเวนเจอร์ส.com##.only-cen
-ดิอเวนเจอร์ส.com##.bcm-ads
+gemini.google.com##.desktop-ogb-buffer
+gemini.google.com##.ng-star-inserted.footer-desktop.footer
+gemini.google.com##.right-section
 
 ! 19 ส.ค. 2569 https://counter-pressing.com
 counter-pressing.com##.\[contain\:layout\].items-center.flex-col.w-full.flex.my-6
@@ -541,4 +534,23 @@ counter-pressing.com##.\[contain\:layout\].items-center.flex-col.w-full.flex.my-
 ! 20 ส.ค. 2569 https://chatgpt.com
 chatgpt.com##.wm-app-recurringLoginBanner
 chatgpt.com##[class*="_cookieOverlay"]
+chatgpt.com##[aria-labelledby="cookie-consent-title"]
+chatgpt.com##[data-cookie-consent]
+chatgpt.com##[data-cookie-consent]
+!chatgpt.com##[data-recurring-login-banner]
+!chatgpt.com##[data-mobile-disclosure-thread-end]
+
+
+! 8 ก.ย. 2569 https://anime-your.com
+anime-your.com##.mb-no-p.bg-none.container.a_head
+anime-your.com###footer > .m-0.row
+anime-your.com##.py-2.video-content.watch-bnn
+
+! 23 ก.ย. 2569 https://1112hdc.com
+1112hdc.com##.vipx--l-static.vipx--g-a.vipx-grid
+1112hdc.com##.vipx--l-absolute.vipx--g-e.vipx-grid
+1112hdc.com##.jw-reset.jw-wrapper
+
+! 28 ก.ย. 2569 https://docs.google.com
+docs.google.com##.EbMsme
 

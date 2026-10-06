@@ -61,4 +61,7 @@ www.anime108.com##.adc
 www.anime108.com##.mcommanr
 www.anime108.com##.ad
 up-manga.com##div.center_upmanga
-up-manga.com##.sticky-close
+up-manga.com##div.center_upmangaza
+up-manga.com##.center_upmangasolo
+up-manga.com##.floating_content
+up-manga.com###sticky-bottom

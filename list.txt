@@ -169,6 +169,8 @@ mawtoload.com##+js(rpnt, script, (t<=0), (true))
 !mawtoload.com/##+js(href-sanitizer, a, [data-target-url])
 !mawtoload.com##+js(href-sanitizer, a.wp-block-button__link[data-target-url], [data-target-url])
 !mawtoload.com##+js(href-sanitizer, a.wp-block-button__link[data-target-url], data-target-url)
+! บล็อกสคริปต์ดาวน์โหลดที่ดักคลิกเปลี่ยนหน้าของ Mawtoload
+mawtoload.com##+js(set, __dlSingleClickInit__, true)
 
 ! 2021-12-26 https://axeload.com
 axeload.com##+js(addEventListener-defuser)
@@ -219,6 +221,7 @@ vk.com,vk.ru##.chat_hide_button_enabled.videoplayer_action_button
 vk.com,vk.ru###page_bottom_banners_root:style(display: none !important;)
 vk.com,vk.ru##.PageBottomBanner--unauth
 vk.ru##.PageBottomBanner--bg-blue.PageBottomBanner--animated.PageBottomBanner--unauth.PageBottomBanner
+vk.ru##.vkui-padding-xl
 
 
 !https://www.doolunla.com/ พัง
@@ -255,7 +258,9 @@ playerlunla.com##+js(abort-current-inline-script, $, check_av)
 ##a[href*="hydra"] > img[src*="gif"]
 ##a[rel*="ofollow"] > img[src*="gif"]
 ##a[rel*="ofollow"] > img[src*="webp"]
+!##a[rel*="ofollow"]:not([href*="facebook.com"], [href*="x.com"]) > img[src*="webp"]
 ##.code-block:has(img)
+!##.code-block:has(img):not(:has(a[href*="facebook.com"], a[href*="x.com"]))
 ##a[href] > img[src*="close"]
 
 ! 31/5/2563 https://writer.dek-d.com
@@ -271,7 +276,7 @@ movie-th.com#$##moviePlayer { display: none!important; }
 movie-th.com#$##videoWrapper { display: block!important; }
 
 !thaiadsblocklist
-||*.gif$image,domain=1112hds.com|037-anime.com|hitseries.co|9nunghd.com|animelizm.com|cinemas1.com|gg-anime.com|series2day.com|goseries4k.com|movie2free.tv|moviehdfree.net|movie2film.com|movie2here.com|neko-miku.com|animeindy.com|www.movie678.com|all-movie.tv|inw-iptv.com|anime-kawaii.com|nungfree.tv|anime-suba.com|animelucky.com|cats-translator.com|อนิเมะสนุก.com|overserieshd.com|doomovie.online|678moviehd.com|ok-anime.com|anime-teri.com|anime-kuro.com|animeseesan.com|fairyanime.com|anime-d.com|do-anime.com|animelolo.com|123-hd.com|animerem.com|anime-sugoi.com|037hdd.com|akaanime.com|baan-series.com|doonungdee.online|doonungonline.com|dufree4k.com|imovie-hd.com|movie1free.com|movie2fin.com|movie2thai.com|movie2uhd.com|movie356hd.com|series-nanime.com|thmovieshd.com|tvseriesclub.com|ufa365movie.com|xn--72czp5e5a8b.online,3p
+||*.gif$image,domain=123-hdc.com|1112hds.com|037-anime.com|hitseries.co|9nunghd.com|animelizm.com|cinemas1.com|gg-anime.com|series2day.com|goseries4k.com|movie2free.tv|moviehdfree.net|movie2film.com|movie2here.com|neko-miku.com|animeindy.com|www.movie678.com|all-movie.tv|inw-iptv.com|anime-kawaii.com|nungfree.tv|anime-suba.com|animelucky.com|cats-translator.com|อนิเมะสนุก.com|overserieshd.com|doomovie.online|678moviehd.com|ok-anime.com|anime-teri.com|anime-kuro.com|animeseesan.com|fairyanime.com|anime-d.com|do-anime.com|animelolo.com|animerem.com|anime-sugoi.com|037hdd.com|akaanime.com|baan-series.com|doonungdee.online|doonungonline.com|dufree4k.com|imovie-hd.com|movie1free.com|movie2fin.com|movie2thai.com|movie2uhd.com|movie356hd.com|series-nanime.com|thmovieshd.com|tvseriesclub.com|ufa365movie.com|xn--72czp5e5a8b.online,3p
 
 !5play.ru##+js(nano-sib)
 5play.ru,lenov.ru##+js(nano-sib, , ,0.001)
@@ -407,9 +412,10 @@ fairyanime.net##div.text-center.col-lg-6.col-lg-12
 !animewaku.com,anime-yuzu.com,stream.matchalatte.club,stream.matchalatte.club##+js(trusted-click-element, li:nth-of-type(4))
 
 ! 2023-05-11 https://anime-hit.com https://series-indy.com/ https://anime-hit.com/
-anime-hit.com##a.img-responsive
-anime-hit.com###adsR.m-0.row
-anime-hit.com##div.watch-bnn
+hit-anime.com##a.img-responsive
+hit-anime.com###adsR.m-0.row
+hit-anime.com##div.watch-bnn
+hit.team-indy.net##+js(set, player.vroll, noop)
 
 ! 2023-07-04 https://animeriku.com animefuka.com animekumo.com animeloki.com/ anime-loki.com
 anime-loki.com##.banner-wrapper
@@ -532,14 +538,13 @@ gemini.google.com##.right-section
 counter-pressing.com##.\[contain\:layout\].items-center.flex-col.w-full.flex.my-6
 
 ! 20 ส.ค. 2569 https://chatgpt.com
-chatgpt.com##.wm-app-recurringLoginBanner
-chatgpt.com##[class*="_cookieOverlay"]
+!chatgpt.com##.wm-app-recurringLoginBanner
+!chatgpt.com##[class*="_cookieOverlay"]
 chatgpt.com##[aria-labelledby="cookie-consent-title"]
-chatgpt.com##[data-cookie-consent]
-chatgpt.com##[data-cookie-consent]
-!chatgpt.com##[data-recurring-login-banner]
-!chatgpt.com##[data-mobile-disclosure-thread-end]
-
+!chatgpt.com##[data-cookie-consent]
+chatgpt.com##dialog#cookie-consent:remove()
+chatgpt.com##aside[aria-label="ลงชื่อเข้าใช้หรือสร้างบัญชี"]
+chatgpt.com##section[data-bottom-sheet-surface]
 
 ! 8 ก.ย. 2569 https://anime-your.com
 anime-your.com##.mb-no-p.bg-none.container.a_head
@@ -553,4 +558,16 @@ anime-your.com##.py-2.video-content.watch-bnn
 
 ! 28 ก.ย. 2569 https://docs.google.com
 docs.google.com##.EbMsme
+
+!ลบโหษนาใน Reelหมด
+!facebook.com##div:has(> a[href*="s.shopee.co.th"])
+!ลบโหษนาใน Reelหมด เฉพาะvideo+comment ถ้า i แค่คอมเม้น
+facebook.com##div:has(> a[href*="s.shopee.co.th"]:has(g))
+
+! 15 ต.ค. 2569 https://www.facebook.com ความคิดเห็นแต่ละอัน มีลิงก์Shopee อยู่
+facebook.com##div[role="article"][aria-label^="ความคิดเห็นจาก"]:has(a[href*="s.shopee.co.th"])
+
+! 16 ต.ค. 2569 https://www.facebook.com ลบคำ
+facebook.com##span[dir="auto"]:has-text(มีสิทธิ์ได้ค่าคอมมิชชั่น)
+
 
